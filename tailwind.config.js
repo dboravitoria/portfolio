@@ -10,8 +10,8 @@ export default {
       colors:{
         primaryDark: '#790101',
         secondaryDark:'#040616',
-        primaryLight: '#c12727',
-        secondaryLight: '#bdd5ea',
+        primaryLight: '#b23a48',
+        secondaryLight: '#8da9c4',
         white: '#faebd0',
       },
       fontFamily: {

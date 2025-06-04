@@ -2,9 +2,10 @@ export default function Menu({children}){
     return(
         <>
             <ul className="
-            flex flex-row items-center justify-between mr-12
-            sm:gap-8 sm:*:text-lg 
-            md:*:text-xl lg:*:text-2xl *:px-2
+            flex flex-row items-center justify-between 
+            sm:justify-evenly sm:*:text-md sm:mt-2
+            md:gap-8 md:*:text-2xl md:mr-12
+            lg:gap-10 lg:*:text-2xl
             ">
                 {children}
             </ul>

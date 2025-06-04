@@ -14,7 +14,7 @@ export default function Logo() {
                 <a href="#" className="
                     text-secondaryDark dark:text-white
                     font-nunito font-black uppercase italic
-                    lg:text-5xl md:text-4xl sm:text-3xl text-4xl
+                    lg:text-6xl md:text-5xl sm:text-4xl text-4xl
                 ">
                     .Débora
                 </a>

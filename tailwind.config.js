@@ -16,11 +16,15 @@ export default {
       },
       fontFamily: {
         primary: ["JetBrains Mono", 'monospace'],
-        secondary: ["Space Grotesk", 'sans-serif']
+        secondary: ["Space Grotesk", 'sans-serif'],
+        nunito: ["Nunito", 'sans-serif']
       },
        boxShadow: {
         'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.6)',
       },
+      dropShadow:{
+        'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5)',
+      }
     },
   },
   plugins: [],

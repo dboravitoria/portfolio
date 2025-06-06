@@ -19,7 +19,9 @@ export default function Header(){
                         <Link title={"Projetos"}>Projetos</Link>
                         <Link title={"Contato"}>Contato</Link>
                     </Menu>
+                    
                </Navigation>
+               
             </header>
         </>
     );

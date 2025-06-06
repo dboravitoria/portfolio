@@ -3,9 +3,10 @@ export default function Menu({children}){
         <>
             <ul className="
             flex flex-row items-center justify-between 
-            sm:justify-evenly sm:*:text-md sm:mt-2
-            md:gap-8 md:*:text-2xl md:mr-12
-            lg:gap-10 lg:*:text-2xl
+            sm:justify-center sm:*:text-md sm:mt-2 
+            md:gap-4 md:*:text-2xl md:mr-12
+            lg:gap-6 lg:*:text-2xl 
+            xl:-mr-72
             ">
                 {children}
             </ul>

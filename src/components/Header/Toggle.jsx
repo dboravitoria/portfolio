@@ -16,8 +16,8 @@ export function Toggle() {
     }
   }, [isDarkMode]);
     return (
-        <div className="md:flex md:items-center md:justify-end md:h-16 
-        sm:h-12 sm:flex sm:justify-center sm:items-start">
+        <div className="md:absolute md:mr-0 md:top-[70%] md:right-[3%] md:mt-0
+        sm:pb-2 sm:mr-6 sm:flex sm:justify-center sm:items-start sm:mt-4">
             <label className="relative inline justify-center items-center cursor-pointer">
                 <input
                     type="checkbox"
@@ -27,22 +27,23 @@ export function Toggle() {
                 />
                 <div
                     className="
-                    sm:w-14 sm:h-7 md:w-24 md:h-12 rounded-full 
+                    sm:w-10 sm:h-7 md:w-16 md:h-8 rounded-full 
                     dark:bg-white bg-secondaryDark 
                     transition-colors duration-300 ease-in-out
                     shadow-custom drop-shadow-sm
                     peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primaryLight dark:peer-focus:ring-primary
                     ">
                     <div className={`
-                    absolute top-1 left-1 sm:-left-0.5 sm:ml-1 sm:p-0.5 sm:w-5 sm:h-5 md:w-10 md:h-10 rounded-full 
+                    absolute top-1 left-1 sm:-left-0.5 sm:ml-1 sm:p-0.5 sm:w-5 sm:h-5
+                    md:ml-1.5 md:w-6 md:h-6 rounded-full 
                     bg-secondaryLight dark:bg-secondaryDark 
-                    md:ml-1.5 border-2
+                     border-2
                     border-primaryLight dark:border-primaryDark
                     flex items-center justify-center
                     text-secondaryDark dark:text-white
                     transition-all duration-300 ease-in-out
                     
-                    ${isDarkMode ? 'sm:translate-x-8 md:translate-x-12' : ''}
+                    ${isDarkMode ? 'sm:translate-x-4 md:translate-x-8' : ''}
                     `}>
                     
                     {isDarkMode ? <FaMoon size={16} /> : <FaSun size={18} />}

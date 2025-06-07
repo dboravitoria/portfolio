@@ -1,11 +1,16 @@
-import Header from "../Header/Header";
-export default function Container(){
+import Header from '../Header/Header'
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
+
+export default function Content(){
     return (
         <>
-            <div className="
-            relative z-10 px-4 py-10 bg-blue-50
-            ">
+            <div className="relative py-10 selection:bg-intermediarie">
+                <Header />
+                <Main />
+                <Footer />
             </div>
+
         </>
     );
 }

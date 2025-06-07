@@ -1,17 +1,15 @@
 //Importação de Componentes
-import Container from "./components/Container/Container"
+import Wrapper from "./components/Wrapper/Wrapper"
 import Content from "./components/Content/Content"
-import Header from "./components/Header/Header"
-
-
 
 function App() {
   return (
     <>
-      <Container/>
-      <Header/>
+      <div className="flex flex-col min-h-screen min-w-screen overflow-hidden">
+        <Wrapper/>
+        <Content/>
+      </div>
     </>
   )
 }
-
 export default App

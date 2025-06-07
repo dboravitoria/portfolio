@@ -1,0 +1,52 @@
+import Paragrafo from './Paragrafo'
+import WrapperBlur from './WrapperBlur';
+import Icone from './Icone';
+import { FaGithub, FaLinkedin, FaInstagramSquare, FaMapMarkerAlt, FaPhoneSquareAlt   } from "react-icons/fa";
+import { BsEnvelopeAtFill } from "react-icons/bs";
+
+export default function Footer(){
+
+    const iconeStyle = 'sm:w-6 sm:h-6 md:w-10 md:h-10'
+    return(
+        <>
+            <footer className=" 
+             text-white w-screen
+             flex flex-col justify-center items-center sm:mt-14
+             ">
+               <div className='flex gap-4 text-xl sm:text-xl md:text-3xl lg:text-4xl'>
+                   <WrapperBlur>
+                        <Icone link="https://github.com/dboravitoria">
+                            <FaGithub className={iconeStyle} title={'Github'} />
+                        </Icone>
+                   </WrapperBlur>
+                   <WrapperBlur>
+                        <Icone link="https://www.linkedin.com/in/deboravsilva/">
+                            <FaLinkedin className={iconeStyle} title={'Linkedin'}/>
+                        </Icone>
+                   </WrapperBlur>
+                   <WrapperBlur>
+                        <Icone link="mailto:dboravitoriasilva16@gmail.com?subject=Olá Débora!&body=Escreva sua mensagem aqui...">
+                            <BsEnvelopeAtFill className={iconeStyle} title={'E-mail'}/>
+                        </Icone>
+                   </WrapperBlur>
+                   <WrapperBlur>
+                        <Icone link="https://www.instagram.com/deboravitoria_silva?igsh=Y3o2dzMxd2M1MGFz ">
+                            <FaInstagramSquare className={iconeStyle} title={'Instagram'}/>
+                        </Icone>
+                   </WrapperBlur>
+                   <WrapperBlur>
+                        <Icone link="tel:+5511930178082">
+                            <FaPhoneSquareAlt className={iconeStyle} title={'Telefone'}/>
+                        </Icone>
+                   </WrapperBlur>
+                   <WrapperBlur>
+                        <Icone link="https://maps.app.goo.gl/TsQVX1uQVbHgttbM7">
+                            <FaMapMarkerAlt className={iconeStyle} title={'Localização'}/>
+                        </Icone>
+                   </WrapperBlur>
+               </div>
+               <Paragrafo/>
+            </footer>
+        </>
+    );
+}

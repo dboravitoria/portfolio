@@ -16,7 +16,7 @@ export function Toggle() {
     }
   }, [isDarkMode]);
     return (
-        <div className="md:absolute md:mr-0 md:top-[70%] md:right-[3%] md:mt-0
+        <div className="md:absolute md:mr-0 md:top-[70%] md:right-[1%] md:mt-0
         sm:pb-2 sm:mr-6 sm:flex sm:justify-center sm:items-start sm:mt-4">
             <label className="relative inline justify-center items-center cursor-pointer">
                 <input

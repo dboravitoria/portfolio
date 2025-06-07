@@ -12,6 +12,7 @@ export default {
         secondaryDark:'#040616',
         primaryLight: '#b23a48',
         secondaryLight: '#8da9c4',
+        intermediarie: '#c12727',
         white: '#faebd0',
       },
       fontFamily: {
@@ -24,9 +25,24 @@ export default {
       },
       dropShadow:{
         'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5)',
-      }
+        'dark': '0 0 12px #790101',
+        'light': '0 0 12px #040616',
+      },
+       keyframes: {
+    typing: {
+      '0%': { width: '0%' },
+      '70%': { width: '50%' },
     },
+    'blink-caret': {
+      'from, to': { borderColor: 'transparent' },
+      '50%': { borderColor: 'intermediarie' },
+    },
+  },
+  animation: {
+    typing: 'typing 3s steps(100, end)',
+    'blink-caret': 'blink-caret 2s step-end',
+  },
   },
   plugins: [],
 }
-
+}

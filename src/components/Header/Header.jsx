@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
 import Navigation from "./Navigation";
 import Logo from "./Logo";
 import Menu from "./Menu"
-import Link from "./Link";
+import Ancor from "./Ancor";
 import { Toggle } from "./Toggle";
+
 export default function Header(){
     return(
         <>
@@ -15,9 +17,15 @@ export default function Header(){
                     <Logo/>
                     <Toggle/>
                     <Menu>
-                        <Link title={"Sobre"}>Sobre</Link>
-                        <Link title={"Projetos"}>Projetos</Link>
-                        <Link title={"Contato"}>Contato</Link>
+                        <Link to="/sobre">
+                            <Ancor title={"Sobre"}>Sobre</Ancor>
+                        </Link>
+                        <Link to="/projetos">
+                            <Ancor title={"Projetos"}>Projetos</Ancor>
+                        </Link>
+                        <Link to="/contato">
+                            <Ancor title={"Contato"}>Contato</Ancor>
+                        </Link>
                     </Menu>
                     
                </Navigation>

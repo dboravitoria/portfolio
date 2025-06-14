@@ -1,4 +1,4 @@
-import Background from "../Background/Background";
+import Background from '../../components/Wrapper/Background/Background'
 export default function Wrapper(){
     return (
         <>

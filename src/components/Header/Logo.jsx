@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Logo() {
     return (
             <div className="
@@ -6,13 +8,15 @@ export default function Logo() {
                 xl:-ml-[20%]
                 w-full md:w-auto
             ">
-                <a href="#" className="
-                    text-secondaryDark dark:text-white
-                    font-nunito font-black uppercase italic
-                    lg:text-6xl md:text-5xl sm:text-4xl text-4xl
-                ">
-                    .Débora
-                </a>
+                <Link to="/">
+                    <a href="#" className="
+                        text-secondaryDark dark:text-white
+                        font-nunito font-black uppercase italic
+                        lg:text-6xl md:text-5xl sm:text-4xl text-4xl
+                    ">
+                        .Débora
+                    </a>
+                </Link>
             </div>
     );
 }

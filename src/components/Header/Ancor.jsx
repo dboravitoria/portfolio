@@ -1,4 +1,4 @@
-export default function Link({title, children}){
+export default function Ancor({title, children}){
     return(
         <>
             <li className="

@@ -10,8 +10,8 @@ export default function Header(){
         <>
             <header className="
             bg-transparent
-            absolute top-0 sm:flex sm:flex-col
-            w-full max-h-40
+            top-0 sm:flex sm:flex-col sm:-mt-14
+            w-full max-h-40 absolute
             ">
                <Navigation>
                     <Logo/>

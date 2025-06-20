@@ -13,7 +13,7 @@ export default function Footer(){
              text-white w-screen
              flex flex-col justify-center items-center sm:mt-14
              ">
-               <div className='flex gap-4 text-xl sm:text-xl md:text-3xl lg:text-4xl'>
+               <div className='flex gap-4 text-xl sm:text-xl md:text-3xl lg:text-4xl '>
                    <WrapperBlur>
                         <Icone link="https://github.com/dboravitoria">
                             <FaGithub className={iconeStyle} title={'Github'} />
@@ -44,6 +44,7 @@ export default function Footer(){
                             <FaMapMarkerAlt className={iconeStyle} title={'Localização'}/>
                         </Icone>
                    </WrapperBlur>
+                   
                </div>
                <Paragrafo/>
             </footer>

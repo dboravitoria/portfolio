@@ -3,7 +3,7 @@ export default function Avatar(){
     return(
         <>
             <img src={avatar} alt="" className='
-            w-full h-alto object-cover rounded-full border shadow-2xl transition 
+            w-full h-full aspect-square object-cover rounded-full border shadow-2xl transition 
             dark:border-white/15 border-secondaryDark/15
             dark:hover:bg-white/5 hover:bg-secondaryDark/5
             dark:hover:border-primaryDark/15 hover:border-primaryLight/10

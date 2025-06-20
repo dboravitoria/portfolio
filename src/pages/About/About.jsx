@@ -1,11 +1,15 @@
 import Wrapper from "../../components/Wrapper/Wrapper";
-import Header from "../../components/Header/Header";
+import Content from "./Content";
 
 export default function About(){
     return(
         <>
-            <Wrapper/>
-            <Header/>
+            <div className="flex flex-col min-w-screen overflow-hidden"> 
+                <Wrapper/>
+                <Content/>
+            </div>
         </>
     );
 }
+
+

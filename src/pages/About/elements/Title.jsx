@@ -5,7 +5,7 @@ export default function Title(prop){
             dark:text-white text-secondaryDark          
             font-bold text-3xl font-primary 
             sm:mt-56
-            sm:text-4xl md:text-5xl lg:text-6xl mb-4
+            sm:text-4xl md:text-5xl lg:text-6xl 
             ">{prop.title}</h1>
         </>
     );

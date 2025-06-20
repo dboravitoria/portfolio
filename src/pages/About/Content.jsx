@@ -1,16 +1,17 @@
-import Header from "../../components/Header/Header";
-import Container from "../../components/elements/Container";
-import Section from "../../components/elements/Section";
-import Title from "../../components/elements/Title";
+import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
-import WrapperBlur from "../../components/elements/WrapperBlur";
-import Subtitle from "../../components/elements/Subtitle";
-import Description from "../../components/elements/Description"
+import Container from "./elements/Container";
+import Section from "./elements/Section"
+import Title from "./elements/Title"
+import WrapperBlur from "./elements/WrapperBlur";
+import Subtitle from "./elements/Subtitle";
+import Description from "./elements/Description";
+
 
 export default function Content(){
     return(
         <>
-            <div className="
+            <div className="relative md:mb-8
              min-h-screen min-w-screen selection:bg-intermediarie
             ">
                 <Header/>
@@ -38,6 +39,27 @@ export default function Content(){
                             <Description text={"Desde que comecei minha jornada na tecnologia, descobri que programar é muito mais do que escrever código. É sobre resolver problemas, criar experiências e impactar a vida das pessoas. Meu objetivo é continuar aprendendo, evoluindo e construindo interfaces que tornem a web um lugar mais acessível e intuitivo para todos."}/>
                         </WrapperBlur>
                     </Section>
+                    
+                        {/* <WrapperBlur>
+                            <div class="grid grid-cols-3 gap-0 place-items-center max-w-fit">
+                                <div class="relative bg-red-600 w-16 h-16 flex items-center justify-center rounded-xl
+                                shadow-[8px_8px_0_#dc2626] active:shadow-none active:transition-all
+                                transform -rotate-x-12 rotate-y-6 scale-90
+                                hover:scale-95 transition-transform duration-150 cursor-pointer active:select-none active:translate-y-1">
+                                </div>
+                                <div class="relative bg-orange-600 w-16 h-16 flex items-center justify-center rounded-xl
+                                shadow-[8px_8px_0_#ea580c] active:shadow-none active:transition-all
+                                transform -rotate-x-12 rotate-y-6 scale-90
+                                hover:scale-95 transition-transform duration-150 cursor-pointer active:select-none active:translate-y-1">
+                                </div>
+                                <div class="relative bg-yellow-400 w-16 h-16 flex items-center justify-center rounded-xl
+                                shadow-[8px_8px_0_#facc15] active:shadow-none active:transition-all
+                                transform -rotate-x-12 rotate-y-6 scale-90
+                                hover:scale-95 transition-transform duration-150 cursor-pointer active:select-none active:translate-y-1">
+                                </div>
+                                
+                            </div>
+                        </WrapperBlur> */}
                 </Container>
                 <Footer/>
             </div>

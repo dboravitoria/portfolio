@@ -1,5 +1,5 @@
-import Wrapper from "../Wrapper/Wrapper";
-import Content from "../Home/Content/Content"
+import Wrapper from "../../components/Wrapper/Wrapper"
+import Content from "../Home/Content"
 
 function Home(){
     return(

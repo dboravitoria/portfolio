@@ -1,4 +1,4 @@
-import Titulo from "./Titulo";
+import Titulo from "./Titulo"
 import Subtitulo from "./Subtitulo";
 import Description from "./Description";
 import Button from "./Button";

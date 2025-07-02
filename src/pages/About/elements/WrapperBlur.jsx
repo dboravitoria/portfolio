@@ -3,7 +3,7 @@ export default function WrapperBlur({children}){
         <>
             <div className="
             flex flex-col justify-center shadow-lg drop-shadow-custom 
-            min-w-fit sm:max-h-fit
+            min-w-full sm:max-h-fit
             rounded-md backdrop-blur-md 
             sm:mt-72 sm:max-w-[50%] sm:px-8 sm:py-4 sm:-mb-60
             md:w-[45vw] md:-mb-64

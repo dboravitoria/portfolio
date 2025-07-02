@@ -1,10 +1,10 @@
 export default function Title(prop){
     return(
         <>
-            <h1 className="absolute text-center min-w-full 
+            <h1 className="absolute text-center min-w-full
             dark:text-white text-secondaryDark          
             font-bold text-3xl font-primary
-            sm:mt-56
+            sm:mt-32 md:mt-40
             sm:text-4xl md:text-5xl lg:text-6xl 
             ">{prop.title}</h1>
         </>

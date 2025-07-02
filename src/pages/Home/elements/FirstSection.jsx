@@ -1,3 +1,4 @@
+
 import Titulo from "./Titulo"
 import Subtitulo from "./Subtitulo";
 import Description from "./Description";
@@ -5,17 +6,18 @@ import Button from "./Button";
 
 
 export default function FirstSection(){
+    
     return(
         <>
                 <div className="
                 font-secondary font-semibold sm:-mt-10 md:mt-0
                 flex flex-col items-start gap-5 w-full p-4 
                 ">
-                    <Titulo nome={"Olá, eu sou Débora Vitória"}/>
-                    <Subtitulo subtitulo={"Desenvolvedora Front-End..."}/>
+                    <Titulo/>
+                    <Subtitulo/>
                     <Description/>
                     <Button link="/curriculoAtualizado.pdf"
-                    download
+                    download target={"_blank"}
                     title={"Baixar Currículo"}
                     >Click para fazer Download do meu Currículo</Button>
                         <div className="

@@ -1,4 +1,7 @@
-export default function Subtitulo(props){
+import { useContext } from "react";
+import ProfileContext from "../../../context/ProfileContext";
+export default function Subtitulo(){
+    const profile = useContext(ProfileContext)
     return(
         <>
             <h2 className="
@@ -11,7 +14,7 @@ export default function Subtitulo(props){
             sm:w-[25ch]
             sm:text-xl md:text-2xl lg:text-3xl
             ">
-                {props.subtitulo}
+                {profile.bio.subtitulo}
             </h2>
         </>
     );

@@ -1,0 +1,50 @@
+
+  {
+    "redes": {
+      "github": "https://github.com/dboravitoria",
+      "linkedin": "https://www.linkedin.com/in/deboravsilva/",
+      "email": "mailto:dboravitoriasilva16@gmail.com?subject=Olá Débora!&body=Escreva sua mensagem aqui...",
+      "instagram": "https://www.instagram.com/deboravitoria_silva?igsh=Y3o2dzMxd2M1MGFz",
+      "telefone": "tel:+5511930178082",
+      "localizacao": "https://maps.app.goo.gl/TsQVX1uQVbHgttbM7"
+    },
+    "avatar": "./src/assets/avatar.png",
+    "bio": {
+      "titulo": "Olá, eu sou Débora Vitória",
+      "subtitulo": "Desenvolvedora Front-End...",
+      "descricao": "Apaixonada por tecnologia e desenvolvimento web, sempre em busca de aprender e criar soluções inovadoras. Adoro transformar ideias em interfaces funcionais e intuitivas."
+    },
+    "sobre": {
+      "dev": {
+        "titulo": "💻 Desenvolvedora Front-end | Apaixonada por tecnologia e design",
+        "introducao": "Sou uma desenvolvedora front-end dedicada a criar interfaces intuitivas e acessíveis, sempre buscando aprimorar minhas habilidades para entregar experiências incríveis aos usuários.",
+        "desenvolvimento": "Recém formada e com uma trajetória focada no estudo de tecnologias modernas, tenho experiência em HTML, CSS, JavaScript e frameworks como React. Além disso, me interesso por UI/UX e estou constantemente explorando formas de unir código e design para desenvolver soluções funcionais e esteticamente agradáveis.",
+        "conclusao": "Atualmente, estou aperfeiçoando minhas habilidades em desenvolvimento full stack, estudando banco de dados, autenticação e boas práticas para tornar minhas aplicações mais robustas e escaláveis. Meu objetivo é crescer na área de tecnologia, contribuir com projetos impactantes e seguir aprendendo todos os dias."
+      },
+      "titulo": "🎨  Hobbies e Interesses",
+      "interesses": {
+        
+        "introducao": "Além da tecnologia, tenho um lado criativo e artístico que reflete nos meus interesses:",
+        "cafe":{
+          "titulo": "☕ Um bom cafézinho...",
+          "conteudo":"Tomar café enquanto estudo ou assisto algo é um dos meus pequenos rituais diários."
+        },
+        "musica":{
+          "titulo": "🎶 Apaixonada por música...",
+          "conteudo":"Ouço e toco instrumentos musicais como o piano e órgão. Que é uma das formas que encontro para relaxar e me expressar."
+        },
+        "nerd":{
+          "titulo": "🎬 Fã de cultura pop...",
+          "conteudo":"Marvel, Harry Potter, O Senhor dos Anéis, Star Wars e tudo que seja sobre o mundo nerd, eu adoro acompanhar."
+        },
+        "leitura":{
+          "titulo": "📖 Amo ler...",
+          "conteudo":"Sempre que possível, tenho um livro ou quadrinho por perto."
+        }
+      },
+      "motivacao": {
+        "titulo": " ✨ Minha Motivação",
+        "desenvolvimento": "Desde que comecei minha jornada na tecnologia, descobri que programar é muito mais do que escrever código. É sobre resolver problemas, criar experiências e impactar a vida das pessoas. Meu objetivo é continuar aprendendo, evoluindo e construindo interfaces que tornem a web um lugar mais acessível e intuitivo para todos."
+      }
+    }
+  }

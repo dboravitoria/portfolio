@@ -1,4 +1,5 @@
-export default function Subtitle(prop){
+export default function Subtitle({subtitle}){
+    
     return(
         <>
             <h2 className="font-bold font-primary text-start
@@ -6,7 +7,7 @@ export default function Subtitle(prop){
             text-secondaryDark border-secondaryDark
             text-primary tracking-wide min-w-fit relative
             pt-8 pb-4
-            sm:text-xl md:text-2xl lg:text-3xl">{prop.subtitle}</h2>
+            sm:text-xl md:text-2xl lg:text-3xl">{subtitle}</h2>
         </>
     );
 }

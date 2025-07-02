@@ -1,9 +1,9 @@
-export default function Button({link, nameButton, title, children}){
+export default function Button({link, nameButton, target,title, children}){
     return(
         <>
             <a href={link} 
             nameButton={nameButton} 
-            target="_blank" 
+            target={target} 
             title={title}
             className="
             text-secondaryDark dark:text-white

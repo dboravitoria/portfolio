@@ -6,7 +6,7 @@ export default function Logo() {
               text-secondaryDark dark:text-white
               font-nunito font-black italic
               md:text-4xl sm:text-3xl text-3xl">
-            Débora.dev
+            .Devi
            </Link>
     );
 }

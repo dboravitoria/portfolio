@@ -5,11 +5,21 @@ export default function Header() {
   
 
   return (
-    <header className="bg-transparent text-secondaryDark dark:text-white absolute w-full top-4 z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+    <header className="
+        backdrop-blur-md shadow-sm fixed
+        text-secondaryDark dark:text-white 
+         w-full top-0 py-4 z-50
+        border-b dark:border-white/15 border-secondaryDark/15
+        transition 
+        dark:bg-white/15 bg-secondaryDark/15
+        sm:text-lg md:text-xl lg:text-2xl
+            
+     ">
+      <div className="container mx-auto px-4 py-4 flex justify-between  items-start">
         <Logo />
         <Menu/>
       </div>
     </header>
   )
 }
+

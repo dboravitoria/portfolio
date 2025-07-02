@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import { Menu as MenuIcon, X as CloseIcon } from "lucide-react"
 import Toggle from "./Toggle"
 import Ancor from "./Ancor"
@@ -10,7 +9,7 @@ export default function Menu() {
   const toggleMenu = () => setMenuOpen(prev => !prev)
   return (
     <>
-        <div>
+        <div className="sm:-mb-4 md:mb-0">
             <nav className="hidden md:flex gap-6 items-center">
             <Ancor link="/sobre" title="Sobre" />
             <Ancor link="/projetos" title="Projetos" />
@@ -27,8 +26,9 @@ export default function Menu() {
         </div>
         {/* Menu Mobile */}
       {menuOpen && (
-        <div className="md:hidden px-4 pb-4">
-          <nav className="flex flex-col gap-3 bg-transparent rounded-md p-2 font-primary">
+        <div className="md:hidden p-4 ">
+          <nav className="flex flex-col gap-3 border dark:bg-white/10 dark:border-white/15 backdrop-blur-sm
+          bg-secondaryDark/10 border-secondaryDark/15 rounded-md p-2 font-primary ">
             <Ancor link="/sobre" title="Sobre" toggle={toggleMenu}/>
             <Ancor link="/projetos" title="Projetos" toggle={toggleMenu}/>
             <Ancor link="/contato" title="Contato" toggle={toggleMenu}/>

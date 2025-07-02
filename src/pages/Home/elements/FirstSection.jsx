@@ -14,15 +14,15 @@ export default function FirstSection(){
                 <Titulo nome={"Olá, eu sou Débora Vitória"}/>
                 <Subtitulo subtitulo={"Desenvolvedora Front-End..."}/>
                 <Description/>
-                <Button link="/curriculoDebora.pdf" 
+                <Button link="/curriculoAtualizado.pdf" 
                 download
                 title={"Baixar Currículo"}
                 >Click para fazer Download do meu Currículo</Button>
                     <div className="
                     gap-4 flex
                     ">
-                        <Button title={"Saiba mais sobre mim"}>Sobre Mim</Button>
-                        <Button title={"Veja meus projetos"}>Ver Projetos</Button>
+                        <Button title={"Saiba mais sobre mim"} link={"/sobre"}>Sobre Mim</Button>
+                        <Button title={"Veja meus projetos"}link={"/projetos"}>Ver Projetos</Button>
                     </div>
             </div>
         </>

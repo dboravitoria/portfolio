@@ -1,4 +1,4 @@
-import avatar from '../../../../public/avatar.png'
+import avatar from '../../../assets/avatar.png'
 export default function Avatar(){
     return(
         <>

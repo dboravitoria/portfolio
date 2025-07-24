@@ -5,14 +5,12 @@ export default function WrapperBlur({children}){
             <div className="
              text-secondaryDark dark:text-white
             dark:bg-white/10 bg-secondaryDark/10
-            backdrop-blur-md  p-2 rounded-full border 
+            backdrop-blur-md  p-2 rounded-full border-2 
             dark:border-white/15 border-secondaryDark/15
             shadow-sm transition 
             dark:hover:bg-white/15 hover:bg-secondaryDark/15
             hover:drop-shadow-custom hover:scale-105
             cursor-pointer
-            sm:text-sm md:text-md lg:text-lg
-            hover:ring-1 dark:hover:ring-primaryDark hover:ring-primaryLight
             ">
                 {children}
             </div>

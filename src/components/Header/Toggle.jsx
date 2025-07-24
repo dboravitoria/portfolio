@@ -18,11 +18,11 @@ function Toggle() {
   return (
         <>
             <button onClick={toggleTheme} className="
-            ml-4 p-2 backdrop-blur-sm rounded-full
-            border dark:bg-white/10 dark:border-white/15
+            ml-4 p-1 backdrop-blur-sm rounded-full
+            border-2 dark:bg-white/10 dark:border-white/15
                 bg-secondaryDark/10 border-secondaryDark/15
             ">
-            {darkMode ? <Sun size={28} /> : <Moon size={28} />}
+            {darkMode ? <Sun size={24} /> : <Moon size={24} />}
           </button>
         </>
   )

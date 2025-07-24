@@ -24,9 +24,9 @@ export default function Main() {
     <>
         <Header/>
         <Title title={"Quem sou eu?"}/>
-        <section className="row justify-content-center gap-4 g-2 min-h-[300vh]">
-            <section className=" col-5 dark:text-white text-center">
-              <WrapperBlur className="py-5">
+        <section className="row justify-content-center mt-40 sm:-mt-20 md:mt-16 lg:mt-16 p-2   min-h-[250vh] ">
+            <section className="col-10 col-sm-10 col-md-5 text-center sm:mt-72 md:mt-48">
+              <WrapperBlur>
                 <Subtitle subtitle={profile.sobre.dev.titulo}/>
                 <Description text={profile.sobre.dev.introducao}/>
                 <Description text={profile.sobre.dev.desenvolvimento}/>
@@ -34,7 +34,7 @@ export default function Main() {
               </WrapperBlur>
             </section>
 
-           <section className='col-5'>
+           <section className="col-10 col-sm-10 col-md-5 text-center -mt-96 md:mt-48">
             <WrapperBlur>
                 <Subtitle subtitle={profile.sobre.titulo}/>
                 <Description text={"Além da tecnologia, tenho um lado criativo e artístico que reflete nos meus interesses:"}/>
@@ -55,21 +55,14 @@ export default function Main() {
                     ))}
                 </div>
             </WrapperBlur>
-            <div className=""> 
+            <div className="mt-10"> 
                 <WrapperBlur >
                     <Subtitle subtitle={profile.sobre.motivacao.titulo}/>
                     <Description text={profile.sobre.motivacao.desenvolvimento}/>
                 </WrapperBlur>
             </div>
            </section>
-           <section className='-mt-96'>
-            <Title title={"Minha Stack"}/>
-                <WrapperBlur >
-                    <Subtitle subtitle={profile.sobre.motivacao.titulo}/>
-                    <Description text={profile.sobre.motivacao.desenvolvimento}/>
-                </WrapperBlur>
-            
-           </section>
+          
         </section>
         <Footer/>
     </>

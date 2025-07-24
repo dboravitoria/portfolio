@@ -8,7 +8,7 @@ export default function Subtitulo(){
             font-bold font-primary text-start
             dark:text-white dark:border-white
             text-secondaryDark border-secondaryDark
-            text-primary tracking-wide overflow-hidden 
+            tracking-wide overflow-hidden 
             whitespace-nowrap border-r-2 
             animate-typing
             sm:w-[25ch]

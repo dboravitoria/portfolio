@@ -6,7 +6,8 @@
       "email": "mailto:dboravitoriasilva16@gmail.com?subject=Olá Débora!&body=Escreva sua mensagem aqui...",
       "instagram": "https://www.instagram.com/deboravitoria_silva?igsh=Y3o2dzMxd2M1MGFz",
       "telefone": "tel:+5511930178082",
-      "localizacao": "https://maps.app.goo.gl/TsQVX1uQVbHgttbM7"
+      "localizacao": "https://maps.app.goo.gl/TsQVX1uQVbHgttbM7",
+      "curriculo": "./public/curriculoAtualizadoDebora.pdf"
     },
     "avatar": "./src/assets/avatar.png",
     "bio": {

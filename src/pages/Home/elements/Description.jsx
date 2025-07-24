@@ -6,7 +6,8 @@ export default function Description(){
     return(
         <>
             <p className="
-            max-w-[80%] font-secondary text-start
+            max-w-[100%] font-secondary text-start
+            text-secondaryDark dark:text-white
             sm:text-md md:text-lg lg:text-xl 
             font-medium
             ">

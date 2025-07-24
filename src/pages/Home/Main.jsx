@@ -7,7 +7,7 @@ export default function Main(){
             <section
                 className="
                 w-full px-4 mx-auto dark:text-white min-h-[calc(100vh-20rem)]
-                mt-28 md:mt-20
+                mt-20 sm:mt-0 md:mt-20
                 flex flex-col-reverse md:flex-row
                 items-center justify-center
                 sm:mb-40 md:items-end max-w-6xl"

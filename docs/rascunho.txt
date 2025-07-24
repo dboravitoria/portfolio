@@ -51,3 +51,55 @@
                                 <Description text={profile.sobre.motivacao.desenvolvimento}/>
                             </WrapperBlur>
                         </div>
+
+
+import { useContext,useState } from "react"
+import Container from "./elements/Container";
+import Section from "./elements/Section"
+import Title from "./elements/Title"
+import WrapperBlur from "./elements/WrapperBlur";
+import Subtitle from "./elements/Subtitle";
+import Description from "./elements/Description";
+import { FiChevronDown } from "react-icons/fi"
+import ProfileContext from "../../context/ProfileContext";
+
+export default function Main(){
+    const profile = useContext(ProfileContext)
+    const [openIndex, setOpenIndex] = useState(null)
+
+    const toggle = (index) => {
+    setOpenIndex(prev => (prev === index ? null : index))
+    }
+
+    const interestsEntries = Object.entries(profile.sobre.interesses)
+    .filter(([key]) => key !== "introducao")
+
+    
+    return(
+        <>
+            {/* <section className="md:grid-cols-2 md:grid-rows-2 md:min-h-screen md:mb-0
+            sm:grid sm:grid-rows-3 sm:align-middle sm:justify-center sm:max-w-screen sm:-mb-28">
+                <section className=" dark:text-white text-center 
+            sm:grid sm:grid-rows sm:align-middle sm:justify-center
+            sm:px-10 sm:-mb-52
+            md:mb-0
+            md:flex-col">
+                <Title title={"Quem sou eu?"}/>
+                <WrapperBlur>
+                    <Subtitle subtitle={profile.sobre.dev.titulo}/>
+                    <Description text={profile.sobre.dev.introducao}/>
+                    <Description text={profile.sobre.dev.desenvolvimento}/>
+                    <Description text={profile.sobre.dev.conclusao}/>
+                </WrapperBlur>
+
+                </section>
+                <section>
+                
+                </section>
+            </section> */}
+
+<p className="text-black">fdjgbskjdfbg\dfb\dfvbhjdfvbhsdfvjhsfbvjhbsdfvsbdjfvbsjfvbjhdfvjhdfvldfvbljsdfvbdflorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, voluptatem culpa recusandae ut sint sequi distinctio quod corporis doloremque labore, nisi iusto quasi voluptatibus quibusdam explicabo ea nesciunt asperiores facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, repudiandae accusamus, mollitia dolor adipisci quae, accusantium culpa officia voluptates eaque totam quas laborum. Labore repudiandae temporibus corporis quia est? Modi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos aliquid omnis odio mollitia ea at non tempora necessitatibus ipsum? Dolores in autem architecto recusandae cupiditate. Obcaecati voluptates sequi nobis atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eius omnis reprehenderit voluptates ipsam aliquid sit laboriosam animi perferendis iste consequuntur deserunt esse, velit ad pariatur exercitationem perspiciatis optio explicabo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium impedit in eligendi vel iste aliquid excepturi dolores vero asperiores possimus quasi, exercitationem provident esse eaque ab error ea ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita numquam assumenda odit sit neque natus quos non autem dolore debitis, tempore praesentium atque fugiat ipsam qui facere, dolor beatae!</p>                    
+                       
+        </>
+    );
+}

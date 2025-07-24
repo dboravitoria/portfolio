@@ -10,11 +10,11 @@ export default function Footer(){
     return(
         <>
             <footer className=" 
-             text-white w-screen border-t p-4 dark:border-white/15 border-secondaryDark/15 
+             text-white w-screen border-t p-2 dark:border-white/15 border-secondaryDark/15 
             dark:bg-white/15 bg-secondaryDark/15
              flex flex-col justify-end fixed bottom-0 items-center sm:mt-14
              ">
-               <div className='flex gap-4 text-xl '>
+               <div className='flex gap-4 text-xl mt-2'>
                    <WrapperBlur>
                         <Icone link="https://github.com/dboravitoria">
                             <FaGithub className={iconeStyle} title={'Github'} />

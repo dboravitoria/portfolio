@@ -6,7 +6,7 @@ import { BsEnvelopeAtFill } from "react-icons/bs";
 
 export default function Footer(){
 
-    const iconeStyle = 'sm:w-6 sm:h-6 md:w-10 md:h-10'
+    const iconeStyle = 'sm:w-6 sm:h-6 md:w-8 md:h-8'
     return(
         <>
             <footer className=" 
@@ -14,7 +14,7 @@ export default function Footer(){
             dark:bg-white/15 bg-secondaryDark/15
              flex flex-col justify-end fixed bottom-0 items-center sm:mt-14
              ">
-               <div className='flex gap-4 text-xl sm:text-xl md:text-3xl lg:text-4xl '>
+               <div className='flex gap-4 text-xl '>
                    <WrapperBlur>
                         <Icone link="https://github.com/dboravitoria">
                             <FaGithub className={iconeStyle} title={'Github'} />

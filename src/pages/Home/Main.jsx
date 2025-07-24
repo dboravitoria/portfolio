@@ -1,20 +1,29 @@
 import FirstSection from './elements/FirstSection'
 import SecondSection from './elements/SecondSection'
+
 export default function Main(){
     return(
+        <main className="block md:ml-28">
+            <section
+                className="
+                w-full px-4 mx-auto dark:text-white min-h-[calc(100vh-20rem)]
+                mt-28 md:mt-20
+                flex flex-col-reverse md:flex-row
+                items-center justify-center
+                sm:mb-40 md:items-end max-w-6xl"
+            >
+                {/* FirstSection - embaixo no mobile, esquerda no desktop */}
+                <div className="w-full md:w-1/2 mb-20 md:mb-0">
+                <FirstSection />
+                </div>
 
-        <>
-            <main className='block md:ml-28 '>
-                <section className="
-                    w-full px-4 mx-auto dark:text-white min-h-[calc(100vh-20rem)]
-                    sm:flex sm:flex-col-reverse sm:items-center sm:justify-center sm:mb-40
-                    md:grid md:grid-cols-2 md:items-end md:justify-center 
-                    max-w-7xl">
-                    <FirstSection />
-                    <SecondSection />
-                </section>
-            </main>
+                {/* SecondSection - em cima no mobile, direita no desktop */}
+                <div className="w-1/2 mb-4">
+                <SecondSection />
+                </div>
+            </section>
+        </main>
 
-        </>
+
     );
 }

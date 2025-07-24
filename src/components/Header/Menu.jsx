@@ -19,7 +19,7 @@ export default function Menu() {
             </nav>
 
         {/* Menu Mobile Toggle */}
-        <div className="md:hidden flex items-center justify-end gap-3">
+        <div className="md:hidden flex items-center justify-end gap-3 mr-10">
           <Toggle />
           <button onClick={toggleMenu} aria-label="Abrir menu">
             {menuOpen ? <CloseIcon size={28} /> : <MenuIcon size={28} />}
@@ -29,7 +29,7 @@ export default function Menu() {
       {menuOpen && (
         <div className="md:hidden p-4 ">
           <nav className="flex  gap-3 border dark:bg-white/10 dark:border-white/15 backdrop-blur-sm
-          bg-secondaryDark/10 border-secondaryDark/15 rounded-md p-2 font-primary ">
+          bg-secondaryDark/10 border-secondaryDark/15 rounded-md p-2">
             <Ancor link="/" title={"Início"} toggle={toggleMenu}/>
             <Ancor link="/sobre" title="Sobre" toggle={toggleMenu}/>
             <Ancor link="/projetos" title="Projetos" toggle={toggleMenu}/>

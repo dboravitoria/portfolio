@@ -5,7 +5,7 @@ export default function WrapperBlur({children}){
             <div className="
              text-secondaryDark dark:text-white
             dark:bg-white/10 bg-secondaryDark/10
-            backdrop-blur-md  p-4 rounded-full border 
+            backdrop-blur-md  p-2 rounded-full border 
             dark:border-white/15 border-secondaryDark/15
             shadow-sm transition 
             dark:hover:bg-white/15 hover:bg-secondaryDark/15

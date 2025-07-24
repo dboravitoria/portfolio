@@ -1,5 +1,5 @@
 import Wrapper from "../../components/Wrapper/Wrapper";
-import Content from "./Content";
+import Content from "../../components/Content";
 
 export default function About(){
     return(

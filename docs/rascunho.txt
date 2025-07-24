@@ -1,0 +1,53 @@
+<Title title={"Quem sou eu?"}/>
+                    
+                        <WrapperBlur>
+                            <Subtitle subtitle={profile.sobre.dev.titulo}/>
+                            <Description text={profile.sobre.dev.introducao}/>
+                            <Description text={profile.sobre.dev.desenvolvimento}/>
+                            <Description text={profile.sobre.dev.conclusao}/>
+                        </WrapperBlur>
+                    
+                    
+                        <WrapperBlur>
+                            <Subtitle subtitle={profile.sobre.titulo}/>
+                            <Description text={"Além da tecnologia, tenho um lado criativo e artístico que reflete nos meus interesses:"}/>
+                            <div className="w-full space-y-4 px-4 py-3 text-sm">
+                                {interestsEntries.map(([key, { titulo, conteudo }], index) => (
+                                    <div
+                                    key={key}
+                                    className="border rounded-lg overflow-hidden border-secondaryDark"
+                                    >
+                                    <button
+                                        className={`
+                                        w-full flex justify-between items-center
+                                        px-4 py-3 font-semibold transition-colors duration-300
+                                        ${openIndex === index
+                                            ? "bg-primary text-white"
+                                            : "bg-white dark:bg-white text-secondaryDark"}
+                                        `}
+                                        onClick={() => toggle(index)}
+                                    >
+                                        <span>{titulo}</span>
+                                        <FiChevronDown
+                                        className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""}`}
+                                        size={20}
+                                        />
+                                    </button>
+
+                                    {openIndex === index && (
+                                        <div className="px-4 py-3 text-sm bg-white dark:bg-secondaryDark text-secondaryDark dark:text-white transition-all">
+                                        {conteudo}
+                                        </div>
+                                    )}
+                                    </div>
+                                ))}
+                                </div>
+
+                        </WrapperBlur>
+                        <div className="mb-10">
+                            
+                            <WrapperBlur >
+                                <Subtitle subtitle={profile.sobre.motivacao.titulo}/>
+                                <Description text={profile.sobre.motivacao.desenvolvimento}/>
+                            </WrapperBlur>
+                        </div>

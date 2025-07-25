@@ -3,7 +3,7 @@ import SecondSection from './elements/SecondSection'
 
 export default function Main(){
     return(
-        <main className="block md:ml-28">
+        <main className="block md:ml-20">
             <section
                 className="
                 w-screen px-4 mx-auto dark:text-white min-h-[calc(100vh-20rem)]

@@ -1,5 +1,5 @@
 import ProfileContext from "./ProfileContext"
-import profile from '../../profile.json'
+import profile from '../../data/profile.json'
 
 export default function ProfileProvider({children}) {
   return (

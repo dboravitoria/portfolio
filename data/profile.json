@@ -78,7 +78,7 @@
       {
         "nome": "Tailwind",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        "logo": "./src/assets/tailwind.png"
       },
       {
         "nome": "Sass",
@@ -93,7 +93,7 @@
       {
         "nome": "RadixUI",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        "logo": "./src/assets/radix.png"
       },
       {
         "nome": "MaterialUI",

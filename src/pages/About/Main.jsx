@@ -81,20 +81,20 @@ export default function Main() {
             <section className="row justify-content-center">
             <Title title={"Minha Stack"} />
 
-            <section className="container my-80 row">
-                <div className="col-12 col-md-4 mb-4">
+            <section className="container my-52 md:mt-80 row justify-content-center">
+                <div className="col-7 col-md-4 mb-4">
                 <WrapperBlur>
                     <CarrosselTecnologias categoria="front"/>
                 </WrapperBlur>
                 </div>
 
-                <div className="col-12 col-md-4 mb-4">
+                <div className="col-7 col-md-4 mb-4">
                 <WrapperBlur>
                     <CarrosselTecnologias categoria="back" />
                 </WrapperBlur>
                 </div>
 
-                <div className="col-12 col-md-4 mb-4">
+                <div className="col-7 col-md-4 mb-4">
                 <WrapperBlur>
                     <CarrosselTecnologias categoria="devops" />
                 </WrapperBlur>

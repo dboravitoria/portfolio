@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { SiStylelint, FaTools, FaInfinity } from "../utils/icons";
+import { SiStylelint, FaTools, FaInfinity,FaArrowLeft, FaArrowRight } from "../utils/icons";
 import perfil from "../../data/profile.json";
 
 export default function CarrosselTecnologias({ categoria }) {
@@ -17,7 +17,6 @@ export default function CarrosselTecnologias({ categoria }) {
       </h2>
 
       <Swiper
-        navigation
         spaceBetween={30}
         breakpoints={{
             0: {
@@ -29,12 +28,21 @@ export default function CarrosselTecnologias({ categoria }) {
         }}
         loop={true}
         modules={[Navigation]}
-        className="mySwiper"
+        navigation={{
+        nextEl: ".custom-next",
+        prevEl: ".custom-prev",
+      }}
+        className="mySwiper selection:none "
         >
-
+        <button className="custom-prev absolute left-4 top-1/2 transform -translate-y-1/2 text-secondaryDark dark:text-white text-3xl z-10">
+    <FaArrowLeft />
+  </button>
+  <button className="custom-next absolute right-4 top-1/2 transform -translate-y-1/2 text-secondaryDark dark:text-white text-3xl z-10">
+    <FaArrowRight />
+  </button>
         {dadosCategoria.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-secondaryDark  dark:bg-white  p-6 rounded-2xl h-full flex flex-col items-center justify-center text-center">
+            <div className="bg-secondaryLight  dark:bg-primaryDark  text-white dark:text-secondaryDark p-6 rounded-2xl h-full flex flex-col items-center justify-center text-center">
               <div className="w-16 h-16 mb-4 flex items-center justify-center">
                 <img
                   src={item.logo}
@@ -42,7 +50,7 @@ export default function CarrosselTecnologias({ categoria }) {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <h3 className="text-xl font-semibold dark:text-secondaryDark text-white">{item.nome}</h3>
+              <h3 className="text-xl font-semibold dark:text-white text-secondaryDark">{item.nome}</h3>
             </div>
           </SwiperSlide>
         ))}

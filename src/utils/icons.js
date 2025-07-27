@@ -1,5 +1,5 @@
 import { RiComputerFill } from "react-icons/ri";
-import { IoIosColorPalette } from "react-icons/io";
+import { IoIosColorPalette, IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaCoffee, FaBook, FaTools, FaInfinity, FaReact, FaNodeJs, FaGitAlt, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { FiChevronDown } from "react-icons/fi"
 import { FaMusic } from "react-icons/fa6";
@@ -9,4 +9,4 @@ import { SiStylelint } from "react-icons/si";
 
 
 
-export {RiComputerFill,IoIosColorPalette,FaCoffee, FaBook, FaTools, FaReact, FaNodeJs, FaGitAlt,FaArrowLeft, FaArrowRight,FaInfinity, FaMusic, MdMovieCreation, BsStars,FiChevronDown, SiStylelint}
+export {RiComputerFill,IoIosColorPalette,IoIosArrowBack, IoIosArrowForward,FaCoffee, FaBook, FaTools, FaReact, FaNodeJs, FaGitAlt,FaArrowLeft, FaArrowRight,FaInfinity, FaMusic, MdMovieCreation, BsStars,FiChevronDown, SiStylelint}

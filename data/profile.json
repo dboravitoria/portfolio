@@ -88,7 +88,7 @@
       {
         "nome": "Bootstrap",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+        "logo": "./src/assets/bootstrap.png"
       },
       {
         "nome": "RadixUI",

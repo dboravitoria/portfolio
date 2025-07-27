@@ -11,7 +11,7 @@ export default function Menu() {
     <>
         <div className="sm:-mb-4 md:mb-0">
             <nav className="hidden md:flex gap-2 lg:gap-4 items-center">
-            <Ancor link="/" title={"Início"}/>
+            <Ancor link="/inicio" title={"Início"}/>
             <Ancor link="/sobre" title="Sobre" />
             <Ancor link="/projetos" title="Projetos" />
             <Ancor link="/contato" title="Contato" />

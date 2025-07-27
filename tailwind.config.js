@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        primaryDark: '#790101',
+        primaryDark: '#AA2132',
         secondaryDark:'#040616',
         primaryLight: '#d6838c',
         secondaryLight: '#bdc8d3',
@@ -25,7 +25,7 @@ export default {
       },
       dropShadow:{
         'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5)',
-        'dark': '0 0 12px #790101',
+        'dark': '0 0 12px #AA2132',
         'light': '0 0 12px #040616',
       },
        keyframes: {

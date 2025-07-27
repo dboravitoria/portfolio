@@ -13,7 +13,7 @@ export default function Button({link, nameButton, target,title, children}){
             backdrop-blur-md  p-2 rounded-full border-2
             dark:border-white/15 border-secondaryDark/15
             shadow-sm transition 
-            dark:hover:bg-white/15 hover:bg-secondaryDark/15
+            dark:hover:bg-primaryLight hover:bg-secondaryLight
             hover:drop-shadow-custom
             hover:scale-105 cursor-pointer
             sm:text-sm md:text-md lg:text-lg

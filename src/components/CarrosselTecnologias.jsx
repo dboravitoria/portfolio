@@ -10,7 +10,7 @@ export default function CarrosselTecnologias({ categoria }) {
   const dadosCategoria = perfil.tecnologias[categoria]; 
 
   return (
-    <div className="mb-6 ">
+    <div className="mb-6 select-none">
       <h2 className="text-lg sm:text-lg md:text-xl lg:text-2xl font-bold mb-6 text-secondaryDark dark:text-white text-center font-primary italic">
         <span className="inline-flex items-center gap-2 justify-center">
           {getIcon(categoria)} {categoria.toUpperCase()}
@@ -30,7 +30,7 @@ export default function CarrosselTecnologias({ categoria }) {
               <div className="w-16 h-16 mb-4 flex items-center justify-center">
                 <img src={item.logo} alt={item.nome} className="w-full h-full object-contain selection:none"/>
               </div>
-              <h3 className="text-xl font-secondary font-bold selection:none text-secondaryDark">{item.nome}</h3>
+              <h3 className="text-xl font-secondary font-bold selection:none text-secondaryDark capitalize">{item.nome}</h3>
             </div>
           </SwiperSlide>
         ))}

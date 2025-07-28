@@ -16,7 +16,7 @@ export default function Footer(){
          w-full  py-2 z-50
          dark:border-white/15 
         transition 
-        dark:bg-white/15 bg-secondaryDark/15
+        dark:bg-white/10 bg-secondaryDark/10
              flex flex-col justify-end fixed bottom-0 items-center sm:mt-14
              ">
                <div className='flex gap-2 lg:gap-4 text-xl '>

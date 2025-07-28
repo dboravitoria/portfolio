@@ -12,7 +12,7 @@ export default {
         secondaryDark:'#040616',
         primaryLight: '#d6838c',
         secondaryLight: '#bdc8d3',
-        intermediarie: '#c12727',
+        intermediarie: '#bc4749', 
         white: '#faebd0',
       },
       fontFamily: {

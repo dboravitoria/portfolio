@@ -5,9 +5,9 @@ export default function WrapperBlur({children}){
             flex flex-col justify-center shadow-custom drop-shadow-custom 
             min-w-full sm:max-h-fit
             rounded-md backdrop-blur-md 
-            p-2 border-1 border-secondaryDark/10
-            dark:shadow-white/10 dark:bg-white/5
-            shadow-secondaryDark bg-secondaryDark/10
+            p-2 border-2 border-secondaryDark/10
+             dark:bg-white/5
+            bg-secondaryDark/10
             ">
                 {children}
             </div>

@@ -12,7 +12,6 @@ export default function LadingPage(){
                 <About/>
                 <Projects/>
                 <Contact/>
-                <Footer/>
             </div>
         </>
     )

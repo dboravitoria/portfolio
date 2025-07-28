@@ -51,7 +51,7 @@ export default function Main() {
                         {interestsEntries.map(([key, { titulo, conteudo }], index) => (
                             <div key={key} className="border-2 rounded-lg overflow-hidden border-secondaryDark/10">
                             <button className={`w-full flex justify-between items-center text-secondaryDark font-secondary px-4 py-3 font-semibold transition-colors duration-300
-                                ${openIndex === index ? "bg-secondaryLight text-secondaryDark dark:bg-primaryLight      " : "bg-white/90 dark:bg-white/90 text-secondaryDark"}
+                                ${openIndex === index ? "text-secondaryDark bg-primaryLight      " : "bg-white/90 dark:bg-white/90 text-secondaryDark"}
                                 `} onClick={() => toggle(index)}>
                                 <span>{titulo}</span>
                                 <FiChevronDown className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""}`} size={20} />
@@ -80,7 +80,7 @@ export default function Main() {
 
             <section className="row justify-content-center">
                 <Title title={"Minha Stack"} />
-                <section className="container mt-52 mb-10 md:mt-80 row justify-content-center">
+                <section className="container mt-52 mb-32 md:mt-80 row justify-content-center">
                     <div className="col-7 col-md-4 mb-4">
                     <WrapperBlur>
                         <CarrosselTecnologias categoria="back" />

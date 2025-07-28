@@ -17,9 +17,9 @@
     },
     "sobre": {
       "dev": {
-        "titulo": "Desenvolvedora Front-end | Apaixonada por tecnologia e design",
+        "titulo": "Desenvolvedora Front-end",
         "introducao": "Sou uma desenvolvedora front-end dedicada a criar interfaces intuitivas e acessíveis, sempre buscando aprimorar minhas habilidades para entregar experiências incríveis aos usuários.",
-        "desenvolvimento": "Recém formada e com uma trajetória focada no estudo de tecnologias modernas, tenho experiência em HTML, CSS, JavaScript e frameworks como React. Além disso, me interesso por UI/UX e estou constantemente explorando formas de unir código e design para desenvolver soluções funcionais e esteticamente agradáveis.",
+        "desenvolvimento": "Recém formada e com uma trajetória focada no estudo de tecnologias modernas, tenho experiência em HTML, CSS, JavaScript e frameworks como react. Além disso, me interesso por UI/UX e estou constantemente explorando formas de unir código e design para desenvolver soluções funcionais e esteticamente agradáveis.",
         "conclusao": "Atualmente, estou aperfeiçoando minhas habilidades em desenvolvimento full stack, estudando banco de dados, autenticação e boas práticas para tornar minhas aplicações mais robustas e escaláveis. Meu objetivo é crescer na área de tecnologia, contribuir com projetos impactantes e seguir aprendendo todos os dias."
       },
       "titulo": "Hobbies e Interesses",
@@ -51,114 +51,134 @@
     "tecnologias": {
     "front": [
       {
-        "nome": "HTML5",
+        "nome": "html",
         "descricao": "Linguagem de marcação para estruturação de páginas web.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "cor": "#E44D26"
       },
       {
-        "nome": "CSS3",
+        "nome": "css",
         "descricao": "Estilização de páginas web com design responsivo.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "cor": "#1572B6"
       },
       {
-        "nome": "JavaScript",
+        "nome": "javascript",
         "descricao": "Linguagem de programação para interatividade no front-end.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "cor": "#F7DF1E"
       },
       {
-        "nome": "TypeScript",
+        "nome": "typescript",
         "descricao": "Biblioteca para construção de interfaces com componentes reutilizáveis.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "cor": "#3178C6"
       },
       {
-        "nome": "React",
+        "nome": "react",
         "descricao": "Biblioteca para construção de interfaces com componentes reutilizáveis.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "cor": "#61DAFB"
       },
       {
-        "nome": "Tailwind CSS",
+        "nome": "tailwind",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "./src/assets/tailwind.png"
+        "logo": "./src/assets/tailwind.png",
+        "cor": "#06B6D4"
       },
       {
-        "nome": "Sass",
+        "nome": "sass",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "cor": "#CD6799"
       },
       {
-        "nome": "Bootstrap",
+        "nome": "bootstrap",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "./src/assets/bootstrap.png"
+        "logo": "./src/assets/bootstrap.png",
+        "cor": "#7952B3"
       },
       {
-        "nome": "Radix UI",
+        "nome": "radix",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "./src/assets/radix.png"
+        "logo": "./src/assets/radix.png",
+        "cor": "#000000"
       },
       {
-        "nome": "Material UI",
+        "nome": "material",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        "cor": "#007FFF"
       },
       {
-        "nome": "Framer Motion",
+        "nome": "framer-motion",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "./src/assets/framerMotion.svg"
+        "logo": "./src/assets/framerMotion.svg",
+        "cor": "#BB4B96"
       },
       {
-        "nome": "Figma",
+        "nome": "figma",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        "cor": "#F24E1E"
       }
     ],
     "back": [
       {
-        "nome": "Node.js",
+        "nome": "node.js",
         "descricao": "Ambiente de execução JavaScript no lado do servidor.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "cor": "#339933"
       },
       {
-        "nome": "Express",
+        "nome": "express",
         "descricao": "Framework para aplicações web com Node.js.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "cor": "#000000"
       },
       {
-        "nome": "PostgreSQL",
+        "nome": "postgreSQL",
         "descricao": "Banco de dados relacional robusto e open source.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "cor": "#336791"
       },
       {
-        "nome": "MongoDB",
+        "nome": "mongoDB",
         "descricao": "Banco de dados NoSQL baseado em documentos.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "cor": "#47A248"
       },
       {
-        "nome": "Firebase",
+        "nome": "firebase",
         "descricao": "Banco de dados NoSQL baseado em documentos.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "cor": "#FFCA28"
       }
-      
     ],
     "devops": [
       {
-        "nome": "Git",
+        "nome": "git",
         "descricao": "Sistema de controle de versão distribuído.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "cor": "#F05032"
       },
       {
-        "nome": "GitHub",
+        "nome": "gitHub",
         "descricao": "Plataforma para hospedagem de repositórios Git.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "cor": "#181717"
       },
       {
-        "nome": "Docker",
+        "nome": "docker",
         "descricao": "Plataforma para containerização de aplicações.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "cor": "#2496ED"
       },
       {
-        "nome": "Vercel",
+        "nome": "vercel",
         "descricao": "Plataforma para deploy de aplicações front-end.",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+        "cor": "#000000"
       }
     ]
     },
@@ -168,7 +188,7 @@
           "id": 1,
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "./src/assets/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
@@ -177,7 +197,7 @@
           "id": 2,
           "titulo" : "Kanban",
           "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
-          "tecnologias": ["React", "Radix Ui", "TypeScript", "GitHub"],
+          "tecnologias": ["react", "radix", "typescript", "gitHub"],
           "thumbnail": "./src/assets/bannerKanban.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
@@ -186,7 +206,7 @@
           "id": 1,
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "./src/assets/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
@@ -197,7 +217,7 @@
           "id": 1,
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "./src/assets/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
@@ -206,7 +226,7 @@
           "id": 1,
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "./src/assets/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"

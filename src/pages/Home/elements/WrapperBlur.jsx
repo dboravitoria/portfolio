@@ -4,7 +4,7 @@ export default function WrapperBlur(){
     return(
         <>
             <div className="
-            flex justify-center items-center shadow-lg  drop-shadow-custom
+            flex justify-center items-center shadow-custom  drop-shadow-custom
             aspect-square border-2
             rounded-full backdrop-blur-md relative
             sm:flex-1 sm:w-64 sm:mb-10 sm:mt-28

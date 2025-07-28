@@ -1,4 +1,5 @@
 import Home from '../Home/Home'
+import Footer from '../../components/Footer/Footer'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
@@ -6,10 +7,13 @@ import Contact from '../Contact/Contact'
 export default function LadingPage(){
     return(
         <>
-            <Home/>
-            <About/>
-            <Projects/>
-            <Contact/>
+            <div className="bg-red-700">
+                <Home/>
+                <About/>
+                <Projects/>
+                <Contact/>
+                <Footer/>
+            </div>
         </>
     )
 }

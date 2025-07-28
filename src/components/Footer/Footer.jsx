@@ -10,8 +10,13 @@ export default function Footer(){
     return(
         <>
             <footer className=" 
-             text-white w-full border-t p-2 dark:border-white/15 border-secondaryDark/15 
-            dark:bg-white/15 bg-secondaryDark/15
+               border-t p-2 border-secondaryDark/15 
+         drop-shadow-custom backdrop-blur-md shadow-custom 
+        text-secondaryDark dark:text-white 
+         w-full  py-2 z-50
+         dark:border-white/15 
+        transition 
+        dark:bg-white/15 bg-secondaryDark/15
              flex flex-col justify-end fixed bottom-0 items-center sm:mt-14
              ">
                <div className='flex gap-2 lg:gap-4 text-xl '>

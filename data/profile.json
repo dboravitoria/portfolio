@@ -48,7 +48,7 @@
         "desenvolvimento": "Desde que comecei minha jornada na tecnologia, descobri que programar é muito mais do que escrever código. É sobre resolver problemas, criar experiências e impactar a vida das pessoas. Meu objetivo é continuar aprendendo, evoluindo e construindo interfaces que tornem a web um lugar mais acessível e intuitivo para todos."
       }
     },
-  "tecnologias": {
+    "tecnologias": {
     "front": [
       {
         "nome": "HTML5",
@@ -76,7 +76,7 @@
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       },
       {
-        "nome": "Tailwind",
+        "nome": "Tailwind CSS",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/tailwind.png"
       },
@@ -91,14 +91,19 @@
         "logo": "./src/assets/bootstrap.png"
       },
       {
-        "nome": "RadixUI",
+        "nome": "Radix UI",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/radix.png"
       },
       {
-        "nome": "MaterialUI",
+        "nome": "Material UI",
         "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+      },
+      {
+        "nome": "Framer Motion",
+        "descricao": "Framework utilitário para estilização rápida e responsiva.",
+        "logo": "./src/assets/framerMotion.svg"
       },
       {
         "nome": "Figma",
@@ -156,5 +161,56 @@
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
       }
     ]
-  }
+    },
+    "projetos": {
+      "front": [
+        {
+          "id": 1,
+          "titulo" : "What to Watch",
+          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
+          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "thumbnail": "./src/assets/bannerWhat.png",
+          "demo": "https://what-to-watch-pi.vercel.app/",
+          "github": "https://github.com/dboravitoria/whatToWatch"
+        },
+        {
+          "id": 2,
+          "titulo" : "Kanban",
+          "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
+          "tecnologias": ["React", "Radix Ui", "TypeScript", "GitHub"],
+          "thumbnail": "./src/assets/bannerKanban.png",
+          "demo": "https://what-to-watch-pi.vercel.app/",
+          "github": "https://github.com/dboravitoria/whatToWatch"
+        },
+        {
+          "id": 1,
+          "titulo" : "What to Watch",
+          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
+          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "thumbnail": "./src/assets/bannerWhat.png",
+          "demo": "https://what-to-watch-pi.vercel.app/",
+          "github": "https://github.com/dboravitoria/whatToWatch"
+        }  
+      ],
+      "full": [
+        {
+          "id": 1,
+          "titulo" : "What to Watch",
+          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
+          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "thumbnail": "./src/assets/bannerWhat.png",
+          "demo": "https://what-to-watch-pi.vercel.app/",
+          "github": "https://github.com/dboravitoria/whatToWatch"
+        },
+        {
+          "id": 1,
+          "titulo" : "What to Watch",
+          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
+          "tecnologias": ["React", "Tailwind", "Framer Motion", "Bootstrap", "Vercel"],
+          "thumbnail": "./src/assets/bannerWhat.png",
+          "demo": "https://what-to-watch-pi.vercel.app/",
+          "github": "https://github.com/dboravitoria/whatToWatch"
+        } 
+      ]
+    }
 }

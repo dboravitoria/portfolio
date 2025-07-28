@@ -31,7 +31,7 @@ function Toggle() {
     <button
       onClick={toggleTheme}
       className="
-        ml-4 p-1 backdrop-blur-sm rounded-full
+        ml-4 p-1 backdrop-blur-sm rounded-full shadow-custom
         border-2 dark:bg-white/10 dark:border-white/15
         bg-secondaryDark/10 border-secondaryDark/15
       "

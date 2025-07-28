@@ -1,6 +1,8 @@
 //utilidades
 import { useContext, useState } from 'react'
 import { FiChevronDown, RiComputerFill, IoIosColorPalette,BsStars } from "../../utils/icons"
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 import ProfileContext from "../../context/ProfileContext";
 //componentes
 import Title from './elements/Title'
@@ -23,6 +25,7 @@ export default function Main() {
 
   return (
     <>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
         <Title title={"Quem sou eu?"}/>
         <section className=" mt-40 sm:-mt-20 md:mt-16 lg:mt-16 p-2 min-h-[200vh] ">
             <section className='row justify-content-center'>
@@ -46,15 +49,15 @@ export default function Main() {
                     <Description text={"Além da tecnologia, tenho um lado criativo e artístico que reflete nos meus interesses:"}/>
                     <div className="w-full space-y-4 px-4 py-3 text-sm">
                         {interestsEntries.map(([key, { titulo, conteudo }], index) => (
-                            <div key={key} className="border rounded-lg overflow-hidden border-secondaryDark">
-                            <button className={`w-full flex justify-between items-center text-secondaryDark px-4 py-3 font-semibold transition-colors duration-300
-                                ${openIndex === index ? "bg-secondaryLight text-secondaryDark dark:bg-primaryDark dark:text-white" : "bg-white dark:bg-white text-secondaryDark"}
+                            <div key={key} className="border-2 rounded-lg overflow-hidden border-secondaryDark/10">
+                            <button className={`w-full flex justify-between items-center text-secondaryDark font-secondary px-4 py-3 font-semibold transition-colors duration-300
+                                ${openIndex === index ? "bg-secondaryLight text-secondaryDark dark:bg-primaryLight      " : "bg-white/90 dark:bg-white/90 text-secondaryDark"}
                                 `} onClick={() => toggle(index)}>
                                 <span>{titulo}</span>
                                 <FiChevronDown className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""}`} size={20} />
                             </button>
                             {openIndex === index && (
-                                <div className="px-4 py-3 text-sm font-bold bg-white dark:bg-secondaryDark text-secondaryDark  transition-all">{conteudo}</div>
+                                <div className="px-4 py-3 text-sm font-bold bg-white/90 text-secondaryDark  transition-all">{conteudo}</div>
                             )}
                             </div>
                         ))}
@@ -77,19 +80,17 @@ export default function Main() {
 
             <section className="row justify-content-center">
                 <Title title={"Minha Stack"} />
-                <section className="container my-52 md:mt-80 row justify-content-center">
-                    <div className="col-7 col-md-4 mb-4">
-                    <WrapperBlur>
-                        <CarrosselTecnologias categoria="front"/>
-                    </WrapperBlur>
-                    </div>
-
+                <section className="container mt-52 mb-10 md:mt-80 row justify-content-center">
                     <div className="col-7 col-md-4 mb-4">
                     <WrapperBlur>
                         <CarrosselTecnologias categoria="back" />
                     </WrapperBlur>
                     </div>
-
+                    <div className="col-7 col-md-4 mb-6">
+                    <WrapperBlur>
+                        <CarrosselTecnologias categoria="front"/>
+                    </WrapperBlur>
+                    </div>
                     <div className="col-7 col-md-4 mb-4">
                     <WrapperBlur>
                         <CarrosselTecnologias categoria="devops" />
@@ -97,7 +98,8 @@ export default function Main() {
                     </div>
                 </section>
             </section>
-        </section>       
+        </section>    
+        </motion.div>   
     </>
   )
 }

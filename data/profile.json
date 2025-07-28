@@ -19,7 +19,7 @@
       "dev": {
         "titulo": "Desenvolvedora Front-end",
         "introducao": "Sou uma desenvolvedora front-end dedicada a criar interfaces intuitivas e acessíveis, sempre buscando aprimorar minhas habilidades para entregar experiências incríveis aos usuários.",
-        "desenvolvimento": "Recém formada e com uma trajetória focada no estudo de tecnologias modernas, tenho experiência em HTML, CSS, JavaScript e frameworks como react. Além disso, me interesso por UI/UX e estou constantemente explorando formas de unir código e design para desenvolver soluções funcionais e esteticamente agradáveis.",
+        "desenvolvimento": "Recém formada e com uma trajetória focada no estudo de tecnologias modernas, tenho experiência em JavaScript e frameworks como React, Tailwind, Radix UI, Bootstrap. Aprendendo tecnologias como Node, Docker e SQL. Além disso, me interesso por UI/UX e estou constantemente explorando formas de unir código e design para desenvolver soluções funcionais e esteticamente agradáveis.",
         "conclusao": "Atualmente, estou aperfeiçoando minhas habilidades em desenvolvimento full stack, estudando banco de dados, autenticação e boas práticas para tornar minhas aplicações mais robustas e escaláveis. Meu objetivo é crescer na área de tecnologia, contribuir com projetos impactantes e seguir aprendendo todos os dias."
       },
       "titulo": "Hobbies e Interesses",
@@ -32,7 +32,7 @@
         },
         "musica":{
           "titulo": "🎶 Apaixonada por música...",
-          "conteudo":"Ouço e toco instrumentos musicais como o piano e órgão. Que é uma das formas que encontro para relaxar e me expressar."
+          "conteudo":"Ouço e toco instrumentos musicais como o piano, órgão, violão, ukulele e flauta transversal. Que é uma das formas que encontro para relaxar e me expressar."
         },
         "nerd":{
           "titulo": "🎬 Fã de cultura pop...",
@@ -40,7 +40,7 @@
         },
         "leitura":{
           "titulo": "📖 Amo ler...",
-          "conteudo":"Sempre que possível, tenho um livro ou quadrinho por perto."
+          "conteudo":"Sempre que possível, tenho um livro, um quadrinho ou até mesmo meu Kindle por perto."
         }
       },
       "motivacao": {
@@ -52,73 +52,61 @@
     "front": [
       {
         "nome": "html",
-        "descricao": "Linguagem de marcação para estruturação de páginas web.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         "cor": "#E44D26"
       },
       {
         "nome": "css",
-        "descricao": "Estilização de páginas web com design responsivo.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "cor": "#1572B6"
       },
       {
         "nome": "javascript",
-        "descricao": "Linguagem de programação para interatividade no front-end.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "cor": "#F7DF1E"
       },
       {
         "nome": "typescript",
-        "descricao": "Biblioteca para construção de interfaces com componentes reutilizáveis.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         "cor": "#3178C6"
       },
       {
         "nome": "react",
-        "descricao": "Biblioteca para construção de interfaces com componentes reutilizáveis.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "cor": "#61DAFB"
       },
       {
         "nome": "tailwind",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/tailwind.png",
         "cor": "#06B6D4"
       },
       {
         "nome": "sass",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
         "cor": "#CD6799"
       },
       {
         "nome": "bootstrap",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/bootstrap.png",
         "cor": "#7952B3"
       },
       {
         "nome": "radix",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/radix.png",
         "cor": "#000000"
       },
       {
         "nome": "material",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
         "cor": "#007FFF"
       },
       {
         "nome": "framer-motion",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "./src/assets/framerMotion.svg",
         "cor": "#BB4B96"
       },
       {
         "nome": "figma",
-        "descricao": "Framework utilitário para estilização rápida e responsiva.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
         "cor": "#F24E1E"
       }
@@ -126,31 +114,26 @@
     "back": [
       {
         "nome": "node.js",
-        "descricao": "Ambiente de execução JavaScript no lado do servidor.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         "cor": "#339933"
       },
       {
         "nome": "express",
-        "descricao": "Framework para aplicações web com Node.js.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
         "cor": "#000000"
       },
       {
         "nome": "postgreSQL",
-        "descricao": "Banco de dados relacional robusto e open source.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         "cor": "#336791"
       },
       {
         "nome": "mongoDB",
-        "descricao": "Banco de dados NoSQL baseado em documentos.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
         "cor": "#47A248"
       },
       {
         "nome": "firebase",
-        "descricao": "Banco de dados NoSQL baseado em documentos.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
         "cor": "#FFCA28"
       }
@@ -158,25 +141,21 @@
     "devops": [
       {
         "nome": "git",
-        "descricao": "Sistema de controle de versão distribuído.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
         "cor": "#F05032"
       },
       {
         "nome": "gitHub",
-        "descricao": "Plataforma para hospedagem de repositórios Git.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
         "cor": "#181717"
       },
       {
         "nome": "docker",
-        "descricao": "Plataforma para containerização de aplicações.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
         "cor": "#2496ED"
       },
       {
         "nome": "vercel",
-        "descricao": "Plataforma para deploy de aplicações front-end.",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
         "cor": "#000000"
       }
@@ -203,7 +182,7 @@
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
         {
-          "id": 1,
+          "id": 3,
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
           "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
@@ -211,26 +190,6 @@
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
         }  
-      ],
-      "full": [
-        {
-          "id": 1,
-          "titulo" : "What to Watch",
-          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
-          "thumbnail": "./src/assets/bannerWhat.png",
-          "demo": "https://what-to-watch-pi.vercel.app/",
-          "github": "https://github.com/dboravitoria/whatToWatch"
-        },
-        {
-          "id": 1,
-          "titulo" : "What to Watch",
-          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
-          "thumbnail": "./src/assets/bannerWhat.png",
-          "demo": "https://what-to-watch-pi.vercel.app/",
-          "github": "https://github.com/dboravitoria/whatToWatch"
-        } 
       ]
     }
 }

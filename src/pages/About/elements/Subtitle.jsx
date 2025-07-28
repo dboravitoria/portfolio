@@ -7,7 +7,9 @@ export default function Subtitle({subtitle}){
             text-secondaryDark border-secondaryDark
             tracking-wide min-w-fit relative
             pt-8 pb-4 text-xl
-            sm:text-xl md:text-2xl lg:text-3xl">{subtitle}</h2>
+            sm:text-xl md:text-2xl lg:text-3xl">
+                {subtitle}
+            </h2>
         </>
     );
 }

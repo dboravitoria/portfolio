@@ -1,9 +1,10 @@
 //utilidades
-import { useContext, useState } from 'react'
-import { FiChevronDown, RiComputerFill, IoIosColorPalette,BsStars } from "../../utils/icons"
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import { useContext, useState } from 'react'
+import { FiChevronDown, RiComputerFill, IoIosColorPalette,BsStars } from "../../utils/icons"
 import ProfileContext from "../../context/ProfileContext";
+
 //componentes
 import Title from './elements/Title'
 import Subtitle from './elements/Subtitle'
@@ -13,6 +14,7 @@ import CarrosselTecnologias from '../../components/CarrosselTecnologias';
 
 
 export default function Main() {
+
     const profile = useContext(ProfileContext)
     const [openIndex, setOpenIndex] = useState(null)
 
@@ -29,12 +31,12 @@ export default function Main() {
         <Title title={"Quem sou eu?"}/>
         <section className=" mt-40 sm:-mt-20 md:mt-16 lg:mt-16 p-2 min-h-[200vh] ">
             <section className='row justify-content-center'>
+
                 <section className="col-10 col-sm-10 col-md-5 text-center sm:mt-72 md:mt-48">
                   <WrapperBlur>
                     <Subtitle subtitle={
                         <> <RiComputerFill className="inline-block" /> {profile.sobre.dev.titulo} </>
                     }/>
-
                     <Description text={profile.sobre.dev.introducao}/>
                     <Description text={profile.sobre.dev.desenvolvimento}/>
                     <Description text={profile.sobre.dev.conclusao}/>
@@ -51,7 +53,7 @@ export default function Main() {
                         {interestsEntries.map(([key, { titulo, conteudo }], index) => (
                             <div key={key} className="border-2 rounded-lg overflow-hidden border-secondaryDark/10">
                             <button className={`w-full flex justify-between items-center text-secondaryDark font-secondary px-4 py-3 font-semibold transition-colors duration-300
-                                ${openIndex === index ? "text-secondaryDark bg-primaryLight      " : "bg-white/90 dark:bg-white/90 text-secondaryDark"}
+                                ${openIndex === index ? "text-secondaryDark bg-primaryLight" : "bg-white/90 dark:bg-white/90 text-secondaryDark"}
                                 `} onClick={() => toggle(index)}>
                                 <span>{titulo}</span>
                                 <FiChevronDown className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""}`} size={20} />
@@ -69,13 +71,12 @@ export default function Main() {
                     <div className="mt-10">
                     <WrapperBlur >
                         <Subtitle subtitle={
-                        <> <BsStars className="inline-block"/> {profile.sobre.motivacao.titulo}</>
-                    }/>
+                            <> <BsStars className="inline-block"/> {profile.sobre.motivacao.titulo}</>
+                        }/>
                         <Description text={profile.sobre.motivacao.desenvolvimento}/>
                     </WrapperBlur>
                 </div>
                 </section>
-
             </section>
 
             <section className="row justify-content-center">
@@ -99,7 +100,7 @@ export default function Main() {
                 </section>
             </section>
         </section>    
-        </motion.div>   
+    </motion.div>   
     </>
   )
 }

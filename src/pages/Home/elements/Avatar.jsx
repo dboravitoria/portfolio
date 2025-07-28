@@ -2,7 +2,8 @@ import avatar from '../../../assets/avatar.png'
 export default function Avatar(){
     return(
         <>
-            <img src={avatar} alt="" className='
+            <img src={avatar}
+            className='
             w-full h-full aspect-square object-cover rounded-full border shadow-2xl transition 
             dark:border-white/15 border-secondaryDark/15
             dark:hover:bg-white/5 hover:bg-secondaryDark/5
@@ -10,9 +11,7 @@ export default function Avatar(){
             hover:ring-1 dark:hover:ring-primaryDark
             hover:ring-primaryLight
             hover:rounded-full hover:backdrop-blur-md hover:transition-opacity
-            hover:border hover:shadow-2xl
-            
-            ' />
+            hover:border hover:shadow-2xl'/>
         </>
     );
 }

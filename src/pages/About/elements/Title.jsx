@@ -1,4 +1,4 @@
-export default function Title(prop){
+export default function Title({title}){
     return(
         <>
             <h1 className="absolute text-center min-w-full
@@ -6,7 +6,9 @@ export default function Title(prop){
             font-bold text-3xl font-primary
             sm:mt-32 md:mt-32 mt-24
             sm:text-3xl md:text-4xl lg:text-5xl 
-            ">{prop.title}</h1>
+            ">
+                {title}
+            </h1>
         </>
     );
  }

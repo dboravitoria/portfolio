@@ -1,6 +1,5 @@
-import React from 'react'
-
 export default function Button({submit, title}) {
+  
   return (
     <>
         <button onSubmit={submit} className='dark:text-white text-secondaryDark dark:border-white border-secondaryDark/15 rounded-full w-1/4 block mx-auto py-1 border-2 

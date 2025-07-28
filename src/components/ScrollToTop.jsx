@@ -4,24 +4,24 @@ import {FaArrowUp} from '../utils/icons'
 import { motion } from "framer-motion"
 
 export default function ScrollToTop() {
+
   const [isVisible, setIsVisible] = useState(false)
 
-  //monitora a visibilidade do botão
+
   useEffect(() => {
     const handleScroll = () => {
       setIsVisible(window.scrollY > 300)
     }
-    // Adiciona o listener de scroll
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-  //tola pro topo de maneira suave
+
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   return (
-    // Botão de voltar ao topo
     <div className="fixed bottom-24 right-6 z-50">
       {isVisible && (
         <motion.div whileHover={{ scale: 1.03 }} transition={{ type: 'spring', stiffness: 300 }}>

@@ -1,13 +1,14 @@
 import Home from '../Home/Home'
-import ScrollToTop from '../../components/ScrollToTop'
 import About from '../About/About'
-import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import Projects from '../Projects/Projects'
+import ScrollToTop from '../../components/ScrollToTop'
 
 export default function LadingPage(){
+
     return(
         <>
-            <div className="bg-red-700">
+            <div>
                 <Home/>
                 <ScrollToTop/>
                 <About/>

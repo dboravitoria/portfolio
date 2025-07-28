@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import { Sun, Moon } from "lucide-react"
+import {Sun, Moon } from '../../utils/icons'
 
-function Toggle() {
+export default function Toggle() {
+  
   const [darkMode, setDarkMode] = useState(() => {
-    // Verifica se há uma preferência salva no localStorage
     const storedTheme = localStorage.getItem("theme")
     return storedTheme === "dark"
   })
@@ -11,13 +11,11 @@ function Toggle() {
   const toggleTheme = () => {
     setDarkMode(prev => {
       const newTheme = !prev
-      // Atualiza o localStorage
       localStorage.setItem("theme", newTheme ? "dark" : "light")
       return newTheme
     })
   }
 
-  // Aplica a classe ao HTML
   useEffect(() => {
     const html = document.documentElement
     if (darkMode) {
@@ -28,17 +26,11 @@ function Toggle() {
   }, [darkMode])
 
   return (
-    <button
-      onClick={toggleTheme}
-      className="
+    <button onClick={toggleTheme} className="
         ml-4 p-1 backdrop-blur-sm rounded-full shadow-custom
         border-2 dark:bg-white/10 dark:border-white/15
-        bg-secondaryDark/10 border-secondaryDark/15
-      "
-    >
+        bg-secondaryDark/10 border-secondaryDark/15">
       {darkMode ? <Sun size={24} /> : <Moon size={24} />}
     </button>
   )
 }
-
-export default Toggle

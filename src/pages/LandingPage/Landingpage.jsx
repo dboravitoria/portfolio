@@ -1,5 +1,5 @@
 import Home from '../Home/Home'
-import Footer from '../../components/Footer/Footer'
+import ScrollToTop from '../../components/ScrollToTop'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
@@ -9,6 +9,7 @@ export default function LadingPage(){
         <>
             <div className="bg-red-700">
                 <Home/>
+                <ScrollToTop/>
                 <About/>
                 <Projects/>
                 <Contact/>

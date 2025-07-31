@@ -61,7 +61,7 @@ export default function CarrosselProjetos({ categoria }) {
                       })}
                     </div>
 
-                    <div className="mt-4 flex gap-4">
+                    <div className="mt-4 flex gap-2">
                       <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto p-2 border-2 bg-secondaryDark/10
                       hover:bg-secondaryDark/20 hover:transition-all hover:scale-105 hover:drop-shadow-custom
                       backdrop-blur-md  shadow-custom transition  
@@ -78,18 +78,17 @@ export default function CarrosselProjetos({ categoria }) {
                         <a href={item.github} target="_blank">
                           Github
                         </a>
-                      </button>
+                      </button> 
 
-                      <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto p-2 border-2 bg-secondaryDark/10
-                      hover:bg-secondaryDark/20 hover:transition-all hover:scale-105 hover:drop-shadow-custom 
+                    </div>
+                      <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto mt-4 p-2 border-2 bg-secondaryDark/10
+                      hover:bg-secondaryDark/20 hover:transition-all       hover:scale-105 hover:drop-shadow-custom 
                       backdrop-blur-md  shadow-custom transition 
                       cursor-pointer font-primary font-bold text-sm md:text-md">
                         <a href={item.github} target="_blank">
                           Detalhes
                         </a>
                       </button>
-
-                    </div>
                   </div>
             </SwiperSlide>
           ))}

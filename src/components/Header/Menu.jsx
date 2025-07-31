@@ -27,9 +27,9 @@ export default function Menu() {
         </div>
         {/* Menu Mobile */}
       {menuOpen && (
-        <div className="md:hidden px-4 py-2 ">
-          <nav className="flex gap-2 dark:bg-white/10 dark:border-white/15 backdrop-blur-sm
-          bg-secondaryDark/10 border-secondaryDark/15 rounded-md p-2">
+        <div className="md:hidden mr-12 py-2 ">
+          <nav className="flex flex-col -mr-12 gap-2 dark:bg-white/10 dark:border-white/15 backdrop-blur-sm
+          bg-secondaryDark/10 border-secondaryDark/15 rounded-md p-2 text-center">
             <Ancor link="/" title={"Início"} toggle={toggleMenu}/>
             <Ancor link="/sobre" title="Sobre" toggle={toggleMenu}/>
             <Ancor link="/projetos" title="Projetos" toggle={toggleMenu}/>

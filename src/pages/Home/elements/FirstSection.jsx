@@ -20,15 +20,15 @@ export default function FirstSection(){
                 <Description/>
                     <div className="gap-4 flex">
                         <Button link={profile.redes.curriculo} download target={"_blank"} title={"Baixar Currículo"}>
-                            Meu Currículo
+                            Currículo
                         </Button>
 
                         <Button title={"Saiba mais sobre mim"} link={"/sobre"}>
-                            Sobre Mim
+                            Sobre
                         </Button>
 
                         <Button title={"Veja meus projetos"}link={"/projetos"}>
-                            Ver Projetos
+                            Projetos
                         </Button>
                     </div>
             </div>

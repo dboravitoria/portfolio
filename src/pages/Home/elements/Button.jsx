@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Button({ link, target, title, children }) {
+export default function Button({ link, target, title, download, children }) {
     const isInternal = link.startsWith("/");
 
     const className = `
@@ -23,7 +23,14 @@ export default function Button({ link, target, title, children }) {
         );
     } else {
         return (
-            <a href={link} target={target} title={title} className={className}>
+            <a
+                href={link}
+                target={target}
+                title={title}
+                download={download} // ← Aqui, o segredo
+                className={className}
+                rel={target === "_blank" ? "noopener noreferrer" : undefined} // segurança extra
+            >
                 {children}
             </a>
         );

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Button({ link, target, title, children, download }) {
+export default function Button({ link, target, title, children }) {
     const isInternal = link.startsWith("/");
 
     const className = `
@@ -23,7 +23,7 @@ export default function Button({ link, target, title, children, download }) {
         );
     } else {
         return (
-            <a href={link} target={target} title={title} download={download} className={className}>
+            <a href={link} target={target} title={title} className={className}>
                 {children}
             </a>
         );

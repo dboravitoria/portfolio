@@ -7,8 +7,9 @@ import CarrosselProjetos from "./elements/CarrosselProjects";
 export default function Main(){
     return(
         <>
+        <Title title={"Projetos Desenvolvidos"}/>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
-                <Title title={"Projetos Desenvolvidos"}/>
+                
                 <section className=" mt-52 sm:-mt-20 md:mt-10 lg:mt-10 p-2 ">
                     <section className='row justify-content-center'>
                         <section className="col-12  text-center sm:mt-72 md:mt-48 mb-28">

@@ -27,13 +27,17 @@ export default function Main() {
 
   return (
     <>
+    <Title title={"Quem sou eu?"}/>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
-        <Title title={"Quem sou eu?"}/>
+        
         <section className=" mt-40 sm:-mt-20 md:mt-16 lg:mt-16 p-2 min-h-[200vh] ">
+            
             <section className='row justify-content-center'>
 
                 <section className="col-10 col-sm-10 col-md-5 text-center sm:mt-72 md:mt-48">
+                    
                   <WrapperBlur>
+                    
                     <Subtitle subtitle={
                         <> <RiComputerFill className="inline-block" /> {profile.sobre.dev.titulo} </>
                     }/>

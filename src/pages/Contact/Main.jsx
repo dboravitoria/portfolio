@@ -11,11 +11,12 @@ export default function Main() {
 
   return (
     <>
+    <Title title={"Vamos construir algo incrível juntos?"}/>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
-        <Title title={"Vamos construir algo incrível juntos?"}/>
+        
         <section className=" mt-52 sm:-mt-20 md:mt-10 lg:mt-10 p-2">
             <section className='row justify-content-center'>
-                <section className="col-10 col-sm-10 col-md-5 text-center sm:mt-72 md:mt-48 mb-20">
+                <section className="col-12 col-sm-10 col-md-5 text-center sm:mt-72 md:mt-48 mb-20">
                 <WrapperBlur>
                     <form className="flex flex-col gap-2 text-left">
                         <div>

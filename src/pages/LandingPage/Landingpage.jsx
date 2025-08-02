@@ -9,7 +9,6 @@ export default function LadingPage(){
 
     return(
         <>
-            <div>
                 
                 <RevealOnScroll>
                     <Home/>    
@@ -26,7 +25,6 @@ export default function LadingPage(){
                     <Contact/>
                 </RevealOnScroll>
                 
-            </div>
         </>
     )
 }

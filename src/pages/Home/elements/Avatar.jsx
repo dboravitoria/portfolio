@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
-import avatar from '../../../assets/avatar.png'
+import avatar from '../../../assets/perfil.png'
 export default function Avatar() {
   const avatarRef = useRef(null);
 
@@ -14,12 +14,17 @@ export default function Avatar() {
   }, []);
 
   return (
-    <div className="relative lg:w-[400px] lg:h-[400px] sm:h-[300px] sm:w-[300px]"> 
+    <div className="relative mt-10 h-[250px] md:h-[400px] lg:w-[500px] lg:h-[500px] w-auto object-cover"> 
       <img
         ref={avatarRef}
         src={avatar} 
-        className="w-full h-full object-cover rounded-full shadow-2xl transition bg-primaryDark/90 dark:bg-primaryLight/90
-        dark:border-white/15 border-secondaryDark/15"
+        className="w-full h-full md:mt-10 object-cover rounded-full  bg-secondaryDark/10 dark:bg-white/50 backdrop-blur-md  p-2 border-2
+        dark:border-white/15 border-secondaryDark/15
+        shadow-custom transition 
+        hover:bg-white/50 dark:hover:bg-white/10 dark:hover:text-secondaryDark
+        hover:drop-shadow-custom dark:hover:border-2 dark:hover:border-secondaryDark/20
+            
+        "
       />
     </div>
   );

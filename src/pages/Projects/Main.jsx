@@ -10,9 +10,9 @@ export default function Main(){
         <Title title={"Projetos Desenvolvidos"}/>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
                 
-                <section className=" mt-52 sm:-mt-20 md:mt-10 lg:mt-10 p-2 ">
+                <section className=" mt-52 sm:-mt-20 md:mt-10 lg:mt-10 ">
                     <section className='row justify-content-center'>
-                        <section className="col-12  text-center sm:mt-72 md:mt-48 mb-28">
+                        <section className="col-10  text-center sm:mt-72 md:mt-48 mb-28">
                         <WrapperBlur>
                             <CarrosselProjetos categoria={"front"} />
                         </WrapperBlur>

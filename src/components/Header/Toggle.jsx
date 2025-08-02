@@ -29,7 +29,9 @@ export default function Toggle() {
     <button onClick={toggleTheme} className="
         ml-4 p-1 backdrop-blur-sm rounded-full shadow-custom
         border-2 dark:bg-white/10 dark:border-white/15
-        bg-secondaryDark/10 border-secondaryDark/15">
+        bg-secondaryDark/10 border-secondaryDark/15
+         transition dark:hover:bg-white/90 dark:hover:text-secondaryDark hover:bg-white/90
+            hover:drop-shadow-custom hover:scale-105 cursor-pointer">
       {darkMode ? <Sun size={24} /> : <Moon size={24} />}
     </button>
   )

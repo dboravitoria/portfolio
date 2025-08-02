@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { IoIosArrowBack, IoIosArrowForward } from "../../../utils/icons";
+import Button from "./Button";
 import ProfileContext from "../../../context/ProfileContext"
+import { IoIosArrowBack, IoIosArrowForward } from "../../../utils/icons";
 
 export default function CarrosselProjetos({ categoria }) {
   const perfil = useContext(ProfileContext);
@@ -62,34 +64,25 @@ export default function CarrosselProjetos({ categoria }) {
                       })}
                     </div>
 
-                    <div className="mt-4 flex gap-2">
-                      <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto p-2 border-2 bg-secondaryDark/10
-                      hover:bg-secondaryDark/20 hover:transition-all hover:scale-105 hover:drop-shadow-custom
-                      backdrop-blur-md  shadow-custom transition  
-                      cursor-pointer font-primary font-bold text-sm md:text-md">
-                        <a href={item.demo} target="_blank">
-                          Demonstração
-                        </a>
-                      </button>
+                    <div className="mt-4 flex gap-3">
+                      <Button href={item.demo}>Demonstração</Button>
 
-                      <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto p-2 border-2 bg-secondaryDark/10
-                      hover:bg-secondaryDark/20 hover:transition-all hover:scale-105 hover:drop-shadow-custom 
-                      backdrop-blur-md  shadow-custom transition 
-                      cursor-pointer font-primary font-bold text-sm md:text-md">
-                        <a href={item.github} target="_blank">
-                          Github
-                        </a>
-                      </button> 
-
+                     <Button href={item.github}>GitHub</Button>
                     </div>
-                      <button className=" text-secondaryDark  border-secondaryDark/15 rounded-full block mx-auto mt-4 p-2 border-2 bg-secondaryDark/10
-                      hover:bg-secondaryDark/20 hover:transition-all       hover:scale-105 hover:drop-shadow-custom 
-                      backdrop-blur-md  shadow-custom transition 
-                      cursor-pointer font-primary font-bold text-sm md:text-md">
-                        <a href={item.github} target="_blank">
-                          Detalhes
-                        </a>
-                      </button>
+
+                      
+
+                  <Link to={`/projetos/${item.id}`}>
+                    <button
+                      className="text-secondaryDark border-secondaryDark/15 rounded-full block mx-auto mt-4 p-2 border-2 
+                                bg-primaryLight dark:bg-primaryDark/85 hover:bg-secondaryDark/20 hover:transition-all
+                                hover:scale-105 hover:drop-shadow-custom backdrop-blur-md shadow-custom transition 
+                                cursor-pointer font-primary font-bold text-sm md:text-md"
+                    >
+                      Detalhes
+                    </button>
+                  </Link>
+
                   </div>
             </SwiperSlide>
           ))}

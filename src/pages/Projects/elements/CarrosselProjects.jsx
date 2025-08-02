@@ -1,22 +1,23 @@
 import "swiper/css";
 import "swiper/css/navigation";
-import perfil from '../../../../data/profile.json'
-import { IoIosArrowBack, IoIosArrowForward } from "../../../utils/icons"
+import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-
+import { IoIosArrowBack, IoIosArrowForward } from "../../../utils/icons";
+import ProfileContext from "../../../context/ProfileContext"
 
 export default function CarrosselProjetos({ categoria }) {
+  const perfil = useContext(ProfileContext);
 
-  const dadosProjeto = perfil.projetos[categoria]; 
+  const dadosProjeto = perfil.projetos[categoria];
 
   const mapaDeLogos = {};
-    ["front", "back", "devops"].forEach(categoria => {
-      perfil.tecnologias[categoria].forEach(tec => {
-        const nomeNormalizado = tec.nome.toLowerCase().replace(/\s/g, '');
-        mapaDeLogos[nomeNormalizado] = tec.logo;
-      });
+  ["front", "back", "devops"].forEach((categoria) => {
+    perfil.tecnologias[categoria].forEach((tec) => {
+      const nomeNormalizado = tec.nome.toLowerCase().replace(/\s/g, "");
+      mapaDeLogos[nomeNormalizado] = tec.logo;
     });
+  });
 
 
   return (

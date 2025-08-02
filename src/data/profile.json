@@ -77,7 +77,7 @@
       },
       {
         "nome": "tailwind",
-        "logo": "/assets/tailwind.png",
+        "logo": "/tailwind.png",
         "cor": "#06B6D4"
       },
       {
@@ -87,12 +87,12 @@
       },
       {
         "nome": "bootstrap",
-        "logo": "/assets/bootstrap.png",
+        "logo": "/bootstrap.png",
         "cor": "#7952B3"
       },
       {
         "nome": "radix",
-        "logo": "/assets/radix.png",
+        "logo": "/radix.png",
         "cor": "#000000"
       },
       {
@@ -102,7 +102,7 @@
       },
       {
         "nome": "framer-motion",
-        "logo": "/assets/framerMotion.svg",
+        "logo": "/framerMotion.svg",
         "cor": "#BB4B96"
       },
       {
@@ -168,7 +168,7 @@
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
           "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
-          "thumbnail": "/assets/bannerWhat.png",
+          "thumbnail": "/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
@@ -177,7 +177,7 @@
           "titulo" : "Kanban",
           "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
           "tecnologias": ["react", "radix", "typescript", "gitHub"],
-          "thumbnail": "/assets/bannerKanban.png",
+          "thumbnail": "/bannerKanban.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
@@ -186,7 +186,7 @@
           "titulo" : "What to Watch",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
           "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
-          "thumbnail": "/assets/bannerWhat.png",
+          "thumbnail": "/bannerWhat.png",
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
         }  

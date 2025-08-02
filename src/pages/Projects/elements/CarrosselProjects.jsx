@@ -4,7 +4,6 @@ import "swiper/css/navigation";
 import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import Button from "./Button";
 import ProfileContext from "../../../context/ProfileContext"
 import { IoIosArrowBack, IoIosArrowForward } from "../../../utils/icons";
 
@@ -39,9 +38,9 @@ export default function CarrosselProjetos({ categoria }) {
           {dadosProjeto.map((item, index) => (
 
             <SwiperSlide key={index}>
-                  <div className="bg-white/90 border-2 border-secondaryDark/10 text-secondaryDark p-8 rounded-2xl h-full flex flex-col items-center justify-center text-center">
+                  <div className="bg-white/90 border-2 border-secondaryDark/10 text-secondaryDark p-4 rounded-2xl h-full flex flex-col items-center justify-center text-center">
 
-                    <div className="w-72 h-44 mb-5 px-2 flex items-center justify-center">
+                    <div className="w-72 h-44 mb-5 px-4 flex items-center justify-center">
                       <img src={item.thumbnail} alt={item.titulo} className="rounded-xl object-cover h-full w-full shadow-custom backdrop-blur-sm drop-shadow-sm"/>
                     </div>
 
@@ -50,7 +49,7 @@ export default function CarrosselProjetos({ categoria }) {
                     </h3>
 
                     <p className="text-sm font-secondary mt-2 ">
-                      {item.descricao}
+                      {item.subtitulo}
                     </p>
 
                     <div className="flex gap-2 flex-wrap justify-center mt-4 text-xs">
@@ -64,18 +63,12 @@ export default function CarrosselProjetos({ categoria }) {
                       })}
                     </div>
 
-                    <div className="mt-4 flex gap-3">
-                      <Button href={item.demo}>Demonstração</Button>
-
-                     <Button href={item.github}>GitHub</Button>
-                    </div>
-
                       
 
                   <Link to={`/projetos/${item.id}`}>
                     <button
-                      className="text-secondaryDark border-secondaryDark/15 rounded-full block mx-auto mt-4 p-2 border-2 
-                                bg-primaryLight dark:bg-primaryDark/85 hover:bg-secondaryDark/20 hover:transition-all
+                      className="text-secondaryDark border-secondaryDark/15 rounded-full block mx-auto mt-8 p-2 border-2 
+                                bg-primaryLight dark:bg-primaryDark/85 hover:bg-primaryDark/80 dark:hover:bg-primaryLight/80 hover:transition-all
                                 hover:scale-105 hover:drop-shadow-custom backdrop-blur-md shadow-custom transition 
                                 cursor-pointer font-primary font-bold text-sm md:text-md"
                     >

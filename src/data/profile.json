@@ -166,15 +166,18 @@
         {
           "id": 1,
           "titulo" : "What to Watch",
+          "subtitulo": "Página para pesquisa de filmes e séries",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
           "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "/bannerWhat.png",
+          "galeria": [ "/what4.png","/what5.png","/what3.png", "/what2.png","/what1.png","/what6.png"],
           "demo": "https://what-to-watch-pi.vercel.app/",
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
         {
           "id": 2,
           "titulo" : "Kanban",
+          "subtitulo":"Aplicativo para organização de tarefas",
           "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
           "tecnologias": ["react", "radix", "typescript", "gitHub"],
           "thumbnail": "/bannerKanban.png",
@@ -184,6 +187,7 @@
         {
           "id": 3,
           "titulo" : "What to Watch",
+          "subtitulo": "Página para pesquisa de filmes e séries",
           "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
           "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
           "thumbnail": "/bannerWhat.png",

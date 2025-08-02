@@ -4,7 +4,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Projects from "./pages/Projects/Projects";
 import Landingpage from './pages/LandingPage/Landingpage'
-import DetailsProject from "./pages/DetailsProject/DetailsProject"
+import DetailsProject from "./pages/DetailsProject/DetailsProject";
 
 export default function AppRoutes() {
   return (

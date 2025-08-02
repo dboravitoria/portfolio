@@ -14,7 +14,7 @@ export default function Avatar() {
   }, []);
 
   return (
-    <div className="relative mt-10 h-[250px] md:h-[400px] lg:w-[500px] lg:h-[500px] w-auto object-cover"> 
+    <div className="relative h-[250px] md:h-[400px] lg:w-[500px] lg:h-[500px] w-auto object-cover"> 
       <img
         ref={avatarRef}
         src={avatar} 

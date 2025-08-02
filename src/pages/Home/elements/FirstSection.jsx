@@ -6,7 +6,6 @@ import Button from "./Button";
 import Titulo from "./Titulo"
 import Subtitulo from "./Subtitulo";
 import Description from "./Description";
-import { Link } from "react-router-dom";
 
 
 export default function FirstSection(){

@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function Button({link, nameButton, target,title, children}){
 
     return(
         <>
-            <a href={link} 
+            <Link to={link} 
             nameButton={nameButton} 
             target={target} 
             title={title}
@@ -20,7 +22,7 @@ export default function Button({link, nameButton, target,title, children}){
             sm:text-sm md:text-md lg:text-lg
             ">
                 {children}
-            </a>
+            </Link>
         </>
     )
 }

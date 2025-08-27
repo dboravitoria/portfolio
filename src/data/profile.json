@@ -123,6 +123,11 @@
         "cor": "#000000"
       },
       {
+        "nome": "ejs",
+        "logo": "/ejs.png",
+        "cor": "#a4214e"
+      },
+      {
         "nome": "postgreSQL",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         "cor": "#336791"
@@ -131,11 +136,6 @@
         "nome": "mongoDB",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
         "cor": "#47A248"
-      },
-      {
-        "nome": "firebase",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-        "cor": "#FFCA28"
       }
     ],
     "devops": [
@@ -148,11 +148,6 @@
         "nome": "gitHub",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
         "cor": "#181717"
-      },
-      {
-        "nome": "docker",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "cor": "#2496ED"
       },
       {
         "nome": "vercel",
@@ -181,19 +176,29 @@
           "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
           "tecnologias": ["react", "radix", "typescript", "gitHub"],
           "thumbnail": "/bannerKanban.png",
-          "demo": "https://what-to-watch-pi.vercel.app/",
+
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
         {
           "id": 3,
-          "titulo" : "What to Watch",
-          "subtitulo": "Página para pesquisa de filmes e séries",
-          "descricao": "Site responsivo para que você possa encontrar informações sobre os filmes e séries mais interessantes. Com ele você encontra filmes antigos que você ama, mas também encontra novidades para se apaixonar.",
-          "tecnologias": ["react", "tailwind", "framer-motion", "bootstrap", "vercel"],
-          "thumbnail": "/bannerWhat.png",
-          "demo": "https://what-to-watch-pi.vercel.app/",
-          "github": "https://github.com/dboravitoria/whatToWatch"
-        }  
+          "titulo" : "D-Produtividade",
+          "subtitulo": "Aplicativo para organização de tarefas",
+          "descricao": "Site responsivo para que você possa organizar suas tarefas em listas de tarefas. Nele você pode criar suas listas de tarefas, criar tarefas em cada lista, completar uma tarefa, desfazer a ação de completar e excluir",
+          "tecnologias": ["javascript", "bootstrap", "node.js", "express", "ejs"],
+          "thumbnail": "/d-prod1.png",
+          "galeria": ["/d-prod1.png", "/d-prod2.png","/d-prod3.png","/d-prod4.png"],
+          "github": "https://github.com/dboravitoria/todoList"
+        },
+        {
+          "id": 4,
+          "titulo" : "React Stock",
+          "subtitulo": "Aplicativo para organização de estoque de uma loja de artigos diversos",
+          "descricao": "Site responsivo para que você possa organizar seu estoque de produtos para a venda. Nele você pode cadastrar os produtos por categorias com o nome, quantidade, valor, categoria e descrição. Tem acesso a um desahboard de controle de movimentação.",
+          "tecnologias": ["javascript", "react", "bootstrap", "github"],
+          "thumbnail": "/stock1.png",
+          "galeria": ["/stock1.png", "/stock2.png","/stock3.png"],
+          "github": "https://github.com/dboravitoria/gerenciadorEstoque"
+        }   
       ]
     }
 }

@@ -141,9 +141,11 @@ export default function Main() {
                         )}
                         
                         <div className="flex justify-center gap-4">
-                            <Button href={projeto.demo} target="_blank">
+                            {projeto.demo && (
+                                <Button href={projeto.demo} target="_blank">
                                 Demonstração
-                            </Button>
+                                </Button>
+                            )}
                             <Button href={projeto.github} target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </Button>

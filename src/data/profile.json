@@ -123,11 +123,6 @@
         "cor": "#000000"
       },
       {
-        "nome": "ejs",
-        "logo": "/ejs.png",
-        "cor": "#a4214e"
-      },
-      {
         "nome": "postgreSQL",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         "cor": "#336791"

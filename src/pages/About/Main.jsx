@@ -98,7 +98,7 @@ export default function Main() {
                     </div>
                     <div className="col-7 col-md-4 mb-4">
                     <WrapperBlur>
-                        <CarrosselTecnologias categoria="devops" />
+                        <CarrosselTecnologias categoria="ferramentas" />
                     </WrapperBlur>
                     </div>
                 </section>

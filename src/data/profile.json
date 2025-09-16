@@ -76,6 +76,11 @@
         "cor": "#61DAFB"
       },
       {
+        "nome": "next.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "cor": "#000000"
+      },
+      {
         "nome": "tailwind",
         "logo": "/tailwind.png",
         "cor": "#06B6D4"
@@ -133,7 +138,7 @@
         "cor": "#47A248"
       }
     ],
-    "devops": [
+    "ferramentas": [
       {
         "nome": "git",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -143,6 +148,16 @@
         "nome": "gitHub",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
         "cor": "#181717"
+      },
+      {
+        "nome": "eslint",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+        "cor": "#4B32C3"
+      },
+      {
+        "nome": "postman",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+        "cor": "#FF6C37"
       },
       {
         "nome": "vercel",
@@ -165,21 +180,21 @@
           "github": "https://github.com/dboravitoria/whatToWatch"
         },
         {
-          "id": 2,
-          "titulo" : "Kanban",
-          "subtitulo":"Aplicativo para organização de tarefas",
-          "descricao": "Aplicativo para gestão de tarefas, com organização para as que necessitam ser feitas, as que já estão em andamento e as concluídas. Organizadas com ordem de prioridade",
-          "tecnologias": ["react", "radix", "typescript", "gitHub"],
-          "thumbnail": "/bannerKanban.png",
-
-          "github": "https://github.com/dboravitoria/whatToWatch"
-        },
+            "id": 2,
+            "titulo": "Spiderverse",
+            "subtitulo": "Aplicação para demonstração de personagens do universo do Homem-Aranha",
+            "descricao": "Projeto monólito com front-end em React + Next.js e back-end em Node.js + Express. A aplicação consome dados de uma API própria para exibir detalhes de heróis do universo do Homem-Aranha.",
+            "tecnologias": ["typescript", "react", "next.js", "node.js", "express", "sass", "framer-motion"],
+            "thumbnail": "/spider1.png",
+            "galeria":["/spider1.png","/spider2.png","/spider3.png","/spider4.png"],
+            "github": "https://github.com/dboravitoria/spiderverse"
+          },
         {
           "id": 3,
           "titulo" : "D-Produtividade",
           "subtitulo": "Aplicativo para organização de tarefas",
           "descricao": "Site responsivo para que você possa organizar suas tarefas em listas de tarefas. Nele você pode criar suas listas de tarefas, criar tarefas em cada lista, completar uma tarefa, desfazer a ação de completar e excluir",
-          "tecnologias": ["javascript", "bootstrap", "node.js", "express", "ejs"],
+          "tecnologias": ["javascript", "bootstrap", "node.js", "express"],
           "thumbnail": "/d-prod1.png",
           "galeria": ["/d-prod1.png", "/d-prod2.png","/d-prod3.png","/d-prod4.png"],
           "github": "https://github.com/dboravitoria/todoList"

@@ -13,7 +13,7 @@ export default function CarrosselProjetos({ categoria }) {
   const dadosProjeto = perfil.projetos[categoria];
 
   const mapaDeLogos = {};
-  ["front", "back", "devops"].forEach((categoria) => {
+  ["front", "back", "ferramentas"].forEach((categoria) => {
     perfil.tecnologias[categoria].forEach((tec) => {
       const nomeNormalizado = tec.nome.toLowerCase().replace(/\s/g, "");
       mapaDeLogos[nomeNormalizado] = tec.logo;

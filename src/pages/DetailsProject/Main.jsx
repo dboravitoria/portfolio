@@ -31,7 +31,7 @@ export default function Main() {
     const todasAsTecnologias = [
     ...tecnologias.front,
     ...tecnologias.back,
-    ...tecnologias.devops,
+    ...tecnologias.ferramentas,
     ];
 
     const tecnologiasValidas = todasAsTecnologias.filter((tecObj) =>

@@ -78,7 +78,7 @@ function getIcon(name) {
   const icons = {
     front: <SiStylelint />,
     back: <FaTools />,
-    devops: <FaInfinity />,
+    ferramentas: <FaInfinity />,
   };
 
   return icons[normalized];
